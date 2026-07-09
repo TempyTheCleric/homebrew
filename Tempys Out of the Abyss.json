@@ -6,12 +6,14 @@
 				"abbreviation": "TOA",
 				"full": "Tempys Out of the Abyss",
 				"url": "",
-				"authors": ["Tempest"],
+				"authors": [
+					"Tempest"
+				],
 				"convertedBy": [
 					"TempyTheCleric"
 				],
-				"color": "#D100D1",
-				"version": "1.0.20"
+				"color": "1f8693",
+				"version": "1.0.30"
 			}
 		]
 	},
@@ -129,7 +131,8 @@
 			],
 			"savingThrowForced": [
 				"dexterity"
-			]
+			],
+			"uniqueId": "50b45780-5207-4bb0-b1c1-e48fba5c52bd"
 		},
 		{
 			"name": "Amber Thrazgad",
@@ -333,7 +336,8 @@
 			],
 			"savingThrowForcedSpell": [
 				"wisdom"
-			]
+			],
+			"uniqueId": "c8616f16-f644-45c2-832a-69b63b8c4512"
 		},
 		{
 			"name": "Deepking Horgar Steelshadow V",
@@ -577,7 +581,8 @@
 			],
 			"damageTags": [
 				"B"
-			]
+			],
+			"uniqueId": "4aa68df8-57c0-4c71-a0ef-c42d13740f69"
 		},
 		{
 			"name": "Grinta Ironhead",
@@ -779,7 +784,8 @@
 			],
 			"savingThrowForced": [
 				"dexterity"
-			]
+			],
+			"uniqueId": "a3e8fb3f-a0d0-47dd-8378-914fca6cc5db"
 		},
 		{
 			"name": "Ylsa Henstak",
@@ -953,7 +959,8 @@
 			],
 			"savingThrowForced": [
 				"intelligence"
-			]
+			],
+			"uniqueId": "8737464f-f5f4-4850-99d3-a432925b5c96"
 		},
 		{
 			"name": "Gorglak Xornbane",
@@ -1147,7 +1154,8 @@
 			"isNpc": true,
 			"damageTags": [
 				"B"
-			]
+			],
+			"uniqueId": "f4663946-2ee2-40f3-a1f3-d7953a464b4e"
 		},
 		{
 			"name": "Captain Errde Blackskull",
@@ -1326,7 +1334,8 @@
 			"damageTags": [
 				"B",
 				"Y"
-			]
+			],
+			"uniqueId": "3f1ce47d-df78-462a-a646-0918ad34f071"
 		},
 		{
 			"name": "Pliinki",
@@ -1485,7 +1494,8 @@
 			],
 			"savingThrowForced": [
 				"dexterity"
-			]
+			],
+			"uniqueId": "b6132ad1-ebf7-484b-ace3-5e6b6f88cabe"
 		},
 		{
 			"name": "Aliinka",
@@ -1682,7 +1692,8 @@
 				"constitution",
 				"dexterity",
 				"wisdom"
-			]
+			],
+			"uniqueId": "6508a531-d72d-477e-a060-cc4594997ad9"
 		},
 		{
 			"name": "Master Assassin Eldgrim",
@@ -1875,7 +1886,8 @@
 			],
 			"savingThrowForced": [
 				"constitution"
-			]
+			],
+			"uniqueId": "0f7960e0-a882-4665-bf68-265224b7d3cc"
 		},
 		{
 			"name": "Diinakvil Rylafyrn",
@@ -2068,7 +2080,8 @@
 			],
 			"savingThrowForcedSpell": [
 				"wisdom"
-			]
+			],
+			"uniqueId": "0c7ecd48-83de-48f6-8fde-c82e19cbd1d7"
 		},
 		{
 			"name": "Shari",
@@ -2221,7 +2234,8 @@
 			],
 			"damageTags": [
 				"O"
-			]
+			],
+			"uniqueId": "1a27cfdb-9798-4557-b174-b81ed8068c51"
 		},
 		{
 			"name": "Ulara",
@@ -2374,7 +2388,8 @@
 			],
 			"damageTags": [
 				"O"
-			]
+			],
+			"uniqueId": "c212790a-650d-4d45-a4f1-c59a2b13c863"
 		},
 		{
 			"name": "Ivar",
@@ -2527,7 +2542,8 @@
 			],
 			"damageTags": [
 				"O"
-			]
+			],
+			"uniqueId": "aee7388d-3cf2-4a2a-8530-9a3ce54b419a"
 		},
 		{
 			"name": "Qualux",
@@ -2737,7 +2753,8 @@
 				"charisma",
 				"constitution",
 				"wisdom"
-			]
+			],
+			"uniqueId": "056a2440-6f07-4ca4-bb0e-fb64312ca44c"
 		},
 		{
 			"name": "Uskvil",
@@ -2913,7 +2930,8 @@
 			],
 			"savingThrowForced": [
 				"wisdom"
-			]
+			],
+			"uniqueId": "10280226-223f-4431-8f98-0c2610e20f35"
 		},
 		{
 			"name": "Zubriska",
@@ -3071,7 +3089,8 @@
 			"isNpc": true,
 			"damageTags": [
 				"P"
-			]
+			],
+			"uniqueId": "a20e78fb-c722-4280-bca4-70e89ea3b832"
 		},
 		{
 			"name": "Shal",
@@ -3234,7 +3253,8 @@
 			"savingThrowForced": [
 				"constitution",
 				"wisdom"
-			]
+			],
+			"uniqueId": "e3518b2e-0882-47d9-81bf-eeda7949694b"
 		},
 		{
 			"name": "Rystia Zav",
@@ -3456,7 +3476,8 @@
 			"savingThrowForcedSpell": [
 				"charisma",
 				"wisdom"
-			]
+			],
+			"uniqueId": "9efde09f-e02e-477f-8686-c29ed199596e"
 		},
 		{
 			"name": "Stool",
@@ -3762,7 +3783,8 @@
 				"charisma",
 				"strength",
 				"wisdom"
-			]
+			],
+			"uniqueId": "b7854b1d-a900-4c3a-ab98-4c3812b92fdf"
 		},
 		{
 			"name": "Spinky",
@@ -3929,7 +3951,8 @@
 			],
 			"savingThrowForced": [
 				"constitution"
-			]
+			],
+			"uniqueId": "8f6b6eff-0de2-4d5e-bf26-bed2ac03d03b"
 		},
 		{
 			"name": "Jimjar",
@@ -4174,7 +4197,8 @@
 			],
 			"savingThrowForcedSpell": [
 				"constitution"
-			]
+			],
+			"uniqueId": "a58daaf5-1006-466b-9b42-709fedb6023e"
 		},
 		{
 			"name": "Princess Derendil Sotharilli",
@@ -4525,7 +4549,8 @@
 				"constitution",
 				"dexterity",
 				"wisdom"
-			]
+			],
+			"uniqueId": "6e3e5dab-4b71-4fda-abf1-2dab933a5123"
 		},
 		{
 			"name": "Hilari",
@@ -4725,7 +4750,8 @@
 			"savingThrowForcedSpell": [
 				"dexterity",
 				"wisdom"
-			]
+			],
+			"uniqueId": "864d04bc-8016-4a19-a628-4032e6b52fa1"
 		},
 		{
 			"name": "Sword Spider",
@@ -4866,7 +4892,8 @@
 			],
 			"savingThrowForced": [
 				"constitution"
-			]
+			],
+			"uniqueId": "97cf402c-a74f-4ead-81d5-b896b7d5e70e"
 		},
 		{
 			"name": "Narrak Enhanced",
@@ -5069,7 +5096,8 @@
 				"constitution",
 				"dexterity",
 				"wisdom"
-			]
+			],
+			"uniqueId": "23374d07-01ca-4bd6-a2bd-6d3ef1857004"
 		},
 		{
 			"name": "Themberchaud Zombie",
@@ -5282,7 +5310,8 @@
 			"savingThrowForced": [
 				"dexterity",
 				"wisdom"
-			]
+			],
+			"uniqueId": "e3dfdc05-48b5-4176-a055-eb781142b9f0"
 		},
 		{
 			"name": "Glabbagool",
@@ -5454,7 +5483,8 @@
 			],
 			"savingThrowForced": [
 				"dexterity"
-			]
+			],
+			"uniqueId": "aa5205c2-0a77-4e89-8a2b-7933033a5777"
 		},
 		{
 			"name": "Topsy",
@@ -5693,7 +5723,8 @@
 			],
 			"savingThrowForcedSpell": [
 				"constitution"
-			]
+			],
+			"uniqueId": "e9aaaa7b-5beb-4c8c-8ae9-c3a8e67d67c0"
 		},
 		{
 			"name": "Turvy",
@@ -5937,7 +5968,8 @@
 			],
 			"savingThrowForcedSpell": [
 				"constitution"
-			]
+			],
+			"uniqueId": "f84b1e96-acdf-46af-85f3-0f8af110d1d0"
 		},
 		{
 			"name": "Eldeth Feldrun",
@@ -6158,7 +6190,8 @@
 				"charisma",
 				"dexterity",
 				"wisdom"
-			]
+			],
+			"uniqueId": "9b781a1d-3079-4fe0-aba2-e3b92fdbbdad"
 		},
 		{
 			"name": "Agustus",
@@ -6316,7 +6349,8 @@
 			],
 			"savingThrowForced": [
 				"dexterity"
-			]
+			],
+			"uniqueId": "311b70ad-99e2-40a7-9d80-ffa027d62998"
 		},
 		{
 			"name": "Jaz Cobolt",
@@ -6513,7 +6547,8 @@
 			],
 			"damageTagsSpell": [
 				"O"
-			]
+			],
+			"uniqueId": "cd0ca939-dd83-4a5e-ab7b-67610ae82c5d"
 		},
 		{
 			"name": "Ralto",
@@ -6650,7 +6685,8 @@
 			"tokenHref": {
 				"type": "external",
 				"url": "tokenizer/npc-images/ralto.Token.webp?1761946951673"
-			}
+			},
+			"uniqueId": "ed319cd8-5654-4a61-9ea9-ab30b8990750"
 		},
 		{
 			"name": "The Duchess",
@@ -6848,7 +6884,8 @@
 			],
 			"savingThrowForced": [
 				"strength"
-			]
+			],
+			"uniqueId": "b9722f77-d3a0-4280-868c-d78ce108f539"
 		},
 		{
 			"name": "The Duchess Familiar",
@@ -6991,7 +7028,8 @@
 				}
 			],
 			"familiar": true,
-			"isNpc": true
+			"isNpc": true,
+			"uniqueId": "e191913d-60e9-4379-9f09-88730ebdf613"
 		},
 		{
 			"name": "Dominga",
@@ -7200,7 +7238,8 @@
 				"intelligence",
 				"strength",
 				"wisdom"
-			]
+			],
+			"uniqueId": "7b2d5daf-3d07-41b7-a9e7-10f1a5898809"
 		},
 		{
 			"name": "Kay",
@@ -7296,7 +7335,8 @@
 			],
 			"spellcastingTags": [
 				"O"
-			]
+			],
+			"uniqueId": "39f7c00d-47cf-477d-b6fd-f38893685b88"
 		},
 		{
 			"name": "Thavian",
@@ -7477,7 +7517,8 @@
 				"constitution",
 				"dexterity",
 				"wisdom"
-			]
+			],
+			"uniqueId": "b996cabb-a870-4198-8fcd-f56f0cc4d41c"
 		},
 		{
 			"name": "Shoth Avatar of Juiblex",
@@ -7772,7 +7813,8 @@
 			],
 			"savingThrowForcedSpell": [
 				"constitution"
-			]
+			],
+			"uniqueId": "bedea20a-e9df-453f-8fac-c3671bf3b1ee"
 		},
 		{
 			"name": "Vril'b",
@@ -7972,7 +8014,8 @@
 			],
 			"savingThrowForced": [
 				"constitution"
-			]
+			],
+			"uniqueId": "755a8a76-8f87-4140-8b0b-a5bc5ce27134"
 		},
 		{
 			"name": "Hexmancer Yzma",
@@ -8127,7 +8170,8 @@
 				"constitution",
 				"dexterity",
 				"wisdom"
-			]
+			],
+			"uniqueId": "4cee9729-d4f0-432d-a340-d5efe4364e40"
 		},
 		{
 			"name": "Kronk",
@@ -8255,7 +8299,8 @@
 			],
 			"savingThrowForced": [
 				"dexterity"
-			]
+			],
+			"uniqueId": "85ddf3ea-2f89-41bb-af61-7dc3f63cc365"
 		},
 		{
 			"name": "Stalker of the Horned King",
@@ -8472,367 +8517,8 @@
 			"savingThrowForced": [
 				"dexterity",
 				"strength"
-			]
-		},
-		{
-			"name": "Juiblex",
-			"isNamedCreature": true,
-			"source": "TheAbyss",
-			"page": 160,
-			"size": [
-				"H"
 			],
-			"type": {
-				"type": "fiend",
-				"tags": [
-					"demon"
-				]
-			},
-			"alignment": [
-				"C",
-				"E"
-			],
-			"ac": [
-				{
-					"ac": 18,
-					"from": [
-						"natural armor"
-					]
-				}
-			],
-			"hp": {
-				"average": 350,
-				"formula": "28d12 + 168"
-			},
-			"speed": {
-				"walk": 30,
-				"climb": 30
-			},
-			"str": 24,
-			"dex": 10,
-			"con": 23,
-			"int": 20,
-			"wis": 20,
-			"cha": 16,
-			"save": {
-				"dex": "+7",
-				"con": "+13",
-				"wis": "+12"
-			},
-			"skill": {
-				"perception": "+12"
-			},
-			"senses": [
-				"truesight 120 ft."
-			],
-			"passive": 22,
-			"resist": [
-				"cold",
-				"fire",
-				"lightning"
-			],
-			"immune": [
-				"acid",
-				"poison",
-				{
-					"immune": [
-						"bludgeoning",
-						"piercing",
-						"slashing"
-					],
-					"note": "that is nonmagical",
-					"cond": true
-				}
-			],
-			"conditionImmune": [
-				"blinded",
-				"charmed",
-				"deafened",
-				"exhaustion",
-				"frightened",
-				"grappled",
-				"paralyzed",
-				"petrified",
-				"poisoned",
-				"prone",
-				"restrained",
-				"stunned",
-				"unconscious"
-			],
-			"languages": [
-				"all",
-				"telepathy 120 ft."
-			],
-			"cr": {
-				"cr": "23",
-				"lair": "24"
-			},
-			"spellcasting": [
-				{
-					"name": "Spellcasting",
-					"type": "spellcasting",
-					"headerEntries": [
-						"Juiblex casts one of the following spells, requiring no material components and using Wisdom as the spellcasting ability (spell save {@dc 20}):"
-					],
-					"will": [
-						"{@spell detect magic}"
-					],
-					"daily": {
-						"3e": [
-							"{@spell contagion}",
-							"{@spell gaseous form}"
-						]
-					},
-					"ability": "wis",
-					"displayAs": "action"
-				}
-			],
-			"trait": [
-				{
-					"name": "Foul",
-					"entries": [
-						"Any creature other than an Ooze that starts its turn within 10 feet of Juiblex must succeed on a {@dc 21} Constitution saving throw or be {@condition poisoned} until the start of the creature's next turn."
-					]
-				},
-				{
-					"name": "Legendary Resistance (3/Day)",
-					"entries": [
-						"If Juiblex fails a saving throw, it can choose to succeed instead."
-					]
-				},
-				{
-					"name": "Magic Resistance",
-					"entries": [
-						"Juiblex has advantage on saving throws against spells and other magical effects."
-					]
-				},
-				{
-					"name": "Regeneration",
-					"entries": [
-						"Juiblex regains 20 hit points at the start of its turn. If it takes fire or radiant damage, this trait doesn't function at the start of its next turn. Juiblex dies only if it starts its turn with 0 hit points and doesn't regenerate."
-					]
-				},
-				{
-					"name": "Spider Climb",
-					"entries": [
-						"Juiblex can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Multiattack",
-					"entries": [
-						"Juiblex makes three Acid Lash attacks."
-					]
-				},
-				{
-					"name": "Acid Lash",
-					"entries": [
-						"{@atk mw,rw} {@hit 14} to hit, reach 10 ft. or range 60/120 ft., one target. {@h}21 ({@damage 4d6 + 7}) acid damage. Any creature killed by this attack is drawn into Juiblex's body, where the corpse is dissolved after 1 minute."
-					]
-				},
-				{
-					"name": "Eject Slime {@recharge 5}",
-					"entries": [
-						"Juiblex spews out a corrosive slime, targeting one creature that it can see within 60 feet of it. The target must succeed on a {@dc 21} Dexterity saving throw or take 55 ({@damage 10d10}) acid damage. Unless the target avoids taking all of this damage, any metal armor worn by the target takes a permanent −1 penalty to the AC it offers, and any metal weapon the target is carrying or wearing takes a permanent −1 penalty to damage rolls. The penalty worsens each time a target is subjected to this effect. If the penalty on an object drops to −5, the object is destroyed. The penalty on an object can be removed by the {@spell mending} spell."
-					]
-				}
-			],
-			"legendary": [
-				{
-					"name": "Attack",
-					"entries": [
-						"Juiblex makes one Acid Lash attack."
-					]
-				},
-				{
-					"name": "Corrupting Touch (Costs 2 Actions)",
-					"entries": [
-						"{@atk mw} {@hit 14} to hit, reach 10 ft., one creature. {@h}21 ({@damage 4d6 + 7}) poison damage, and the target is slimed. Until the slime is scraped off with an action, the target is {@condition poisoned}, and any creature, other than an Ooze, is {@condition poisoned} while within 10 feet of the target."
-					]
-				}
-			],
-			"legendaryGroup": {
-				"name": "Juiblex",
-				"source": "MPMM"
-			},
-			"traitTags": [
-				"Legendary Resistances",
-				"Magic Resistance",
-				"Regeneration",
-				"Spider Climb"
-			],
-			"senseTags": [
-				"U"
-			],
-			"actionTags": [
-				"Multiattack"
-			],
-			"languageTags": [
-				"TP",
-				"XX"
-			],
-			"damageTags": [
-				"A",
-				"I"
-			],
-			"damageTagsLegendary": [
-				"F"
-			],
-			"spellcastingTags": [
-				"O"
-			],
-			"miscTags": [
-				"MW",
-				"RCH",
-				"RW"
-			],
-			"conditionInflict": [
-				"poisoned"
-			],
-			"conditionInflictLegendary": [
-				"prone",
-				"restrained"
-			],
-			"conditionInflictSpell": [
-				"blinded",
-				"poisoned",
-				"stunned"
-			],
-			"savingThrowForced": [
-				"constitution",
-				"dexterity"
-			],
-			"savingThrowForcedLegendary": [
-				"dexterity",
-				"strength"
-			],
-			"savingThrowForcedSpell": [
-				"constitution"
-			],
-			"hasFluff": true,
-			"hasFluffImages": true,
-			"token": {
-				"name": "Juiblex",
-				"source": "MPMM"
-			},
-			"fluff": {
-				"name": "Juiblex",
-				"source": "MPMM",
-				"entries": [
-					"Called the Faceless Lord and the Oozing Hunger in ancient grimoires, Juiblex is demon lord of slime and ooze, a noxious creature that doesn't care about the plots and schemes of others of its kind. It exists only to consume, digesting and transforming living matter into more of itself.",
-					"A true horror, Juiblex is a mass of bubbling slime, swirling black and green, with glaring red eyes floating and shifting within it. It can rise up like a 20-foot hill, lashing out with dripping pseudopods to drag victims into its bulk. Those consumed by Juiblex are obliterated.",
-					{
-						"type": "entries",
-						"name": "Cultists of Juiblex",
-						"entries": [
-							"{@note See the {@cult Cult of Juiblex|MPMM} entry.}"
-						]
-					},
-					{
-						"type": "entries",
-						"name": "Juiblex's Lair",
-						"entries": [
-							"Juiblex's principal lair is known as the Slime Pits, a realm that Juiblex shares with {@creature Zuggtmoy|MPMM} (who also appears in this book). This layer of the Abyss, which is also known as Shedaklah, is a bubbling morass of fetid sludge. The landscape is covered in vast expanses of caustic slimes, and strange organic forms rise from the oceans of ooze at Juiblex's command.",
-							"Juiblex's challenge rating is 24 (62,000 XP) when encountered in its lair.",
-							{
-								"type": "entries",
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Lair Actions",
-										"entries": [
-											"On initiative count 20 (losing initiative ties), Juiblex can take one of the following lair actions; it can't take the same lair action two rounds in a row:",
-											{
-												"type": "list",
-												"style": "list-hang-notitle",
-												"items": [
-													{
-														"type": "item",
-														"name": "Green Slime",
-														"entries": [
-															"A {@hazard green slime} (see the {@book Dungeon Master's Guide|DMG}) appears on a spot on the ceiling that Juiblex chooses within the lair. The slime disintegrates after 1 hour."
-														]
-													},
-													{
-														"type": "item",
-														"name": "Slippery Slime",
-														"entries": [
-															"Juiblex slimes a square area of ground it can see within the lair. The area can be up to 10 feet on a side. When the slime appears, each creature on it must succeed on a {@dc 21} Dexterity saving throw or fall {@condition prone} and slide 10 feet in a random direction determined by a {@dice d8} roll. When a creature enters the area for the first time on a turn or ends its turn there, that creature must make the same save.",
-															"The slime lasts for 1 hour or until it is burned away with fire. If the slime is set on fire, it burns away after 1 round. Any creature that starts its turn in the burning slime takes 22 ({@damage 4d10}) fire damage."
-														]
-													},
-													{
-														"type": "item",
-														"name": "Sticky Slime",
-														"entries": [
-															"Juiblex slimes a square area of ground it can see within the lair. The area can be up to 10 feet on a side. When the slime appears, each creature in that area must succeed on a {@dc 21} Strength saving throw or become {@condition restrained}. When a creature enters the area for the first time on a turn or ends its turn there, that creature must make the same save.",
-															"A {@condition restrained} creature is stuck as long as it remains in the slimy area or until it breaks free. The {@condition restrained} creature, or another creature that can reach it, can use its action to try to break free and must succeed on a {@dc 21} Strength check. The slime lasts for 1 hour or until it is burned away with fire. If the slime is set on fire, it burns away after 1 round. Any creature that starts its turn in the burning slime takes 22 ({@damage 4d10}) fire damage."
-														]
-													}
-												]
-											}
-										]
-									}
-								]
-							},
-							{
-								"type": "entries",
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Regional Effects",
-										"entries": [
-											"The region containing Juiblex's lair is warped by its magic, creating one or more of the following effects:",
-											{
-												"type": "list",
-												"style": "list-hang-notitle",
-												"items": [
-													{
-														"type": "item",
-														"name": "Acidic Water",
-														"entries": [
-															"Small bodies of water, such as ponds or wells, within 1 mile of the lair turn highly acidic, corroding any object that touches them."
-														]
-													},
-													{
-														"type": "item",
-														"name": "Corrupted Nature",
-														"entries": [
-															"Within 6 miles of the lair, all Wisdom ({@skill Medicine}) and Wisdom ({@skill Survival}) checks have disadvantage."
-														]
-													},
-													{
-														"type": "item",
-														"name": "Slime",
-														"entries": [
-															"Surfaces within 6 miles of the lair are frequently covered by a thin film of slime, which is slick and sticks to anything that touches it."
-														]
-													}
-												]
-											},
-											"If Juiblex dies, these effects fade over the course of {@dice 1d10} days."
-										]
-									}
-								]
-							}
-						]
-					}
-				],
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "internal",
-							"path": "bestiary/MPMM/Juiblex.webp"
-						},
-						"credit": "Arnie Swekel",
-						"width": 568,
-						"height": 1000
-					}
-				]
-			}
+			"uniqueId": "18a076f6-afc8-4678-a5fd-2d08e9b19034"
 		},
 		{
 			"name": "Fungal Corruption",
@@ -8992,7 +8678,8 @@
 			"savingThrowForced": [
 				"constitution",
 				"dexterity"
-			]
+			],
+			"uniqueId": "b93a2b56-fe51-49ee-b33c-2611d1779dd3"
 		},
 		{
 			"name": "Dancing Lady",
@@ -9147,7 +8834,8 @@
 				"dexterity",
 				"strength",
 				"wisdom"
-			]
+			],
+			"uniqueId": "3a40b180-6ad5-4c8d-8dc1-9c196f10bede"
 		},
 		{
 			"source": "TheAbyss",
@@ -9340,7 +9028,8 @@
 			"savingThrowForced": [
 				"charisma",
 				"constitution"
-			]
+			],
+			"uniqueId": "acf29077-e7cb-4740-99da-d11fffa57240"
 		},
 		{
 			"name": "Araumycos",
@@ -9608,7 +9297,8 @@
 				"dexterity",
 				"strength",
 				"wisdom"
-			]
+			],
+			"uniqueId": "d5163421-dee0-4809-a34b-7d1f394ceb52"
 		},
 		{
 			"name": "Spore Servant",
@@ -9782,7 +9472,8 @@
 			},
 			"damageTags": [
 				"S"
-			]
+			],
+			"uniqueId": "eb0f039a-db9f-4d9f-9dfa-84f8194f1ff2"
 		},
 		{
 			"name": "Ront Iceshield",
@@ -10078,7 +9769,8 @@
 			],
 			"savingThrowForcedSpell": [
 				"wisdom"
-			]
+			],
+			"uniqueId": "85fc487e-c3f0-45e2-8990-03af594a5b3b"
 		},
 		{
 			"name": "Spinky",
@@ -10246,7 +9938,8 @@
 			],
 			"savingThrowForced": [
 				"constitution"
-			]
+			],
+			"uniqueId": "cc579126-fc54-4250-8d1a-9e8c30b269ff"
 		},
 		{
 			"name": "Kay",
@@ -10387,7 +10080,708 @@
 			"savingThrowForcedSpell": [
 				"constitution",
 				"dexterity"
+			],
+			"uniqueId": "36ecc0b5-8973-48f1-b7a6-000ade50888c"
+		},
+		{
+			"name": "Juiblex",
+			"isNamedCreature": true,
+			"source": "TheAbyss",
+			"page": 0,
+			"size": [
+				"G"
+			],
+			"type": {
+				"type": "fiend",
+				"tags": [
+					"demon"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 607,
+				"formula": "38d20 + 208"
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 30
+			},
+			"str": 24,
+			"dex": 10,
+			"con": 23,
+			"int": 20,
+			"wis": 20,
+			"cha": 16,
+			"save": {
+				"dex": "+7",
+				"con": "+13",
+				"wis": "+12"
+			},
+			"skill": {
+				"perception": "+12",
+				"stealth": "+7"
+			},
+			"senses": [
+				"truesight 120 ft."
+			],
+			"passive": 22,
+			"resist": [
+				"cold",
+				"fire",
+				"lightning",
+				"bludgeoning",
+				"piercing",
+				"slashing"
+			],
+			"immune": [
+				"acid",
+				"poison"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"frightened",
+				"grappled",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"prone",
+				"restrained",
+				"stunned",
+				"unconscious"
+			],
+			"languages": [
+				"all",
+				"telepathy 120 ft."
+			],
+			"cr": "24",
+			"trait": [
+				{
+					"name": "Spider Climb",
+					"entries": [
+						"Juiblex can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+					],
+					"sort": 0
+				},
+				{
+					"name": "Corrosive Horror",
+					"entries": [
+						"A creature that starts its turn within 20 feet of Juiblex has the attack bonus of any metal or organic nonartifact weapons it is wielding and the AC bonus of any metal or organic nonartifact armor it is wearing reduced by a permanent and cumulative 1."
+					],
+					"sort": 1
+				},
+				{
+					"name": "Heart of Chaos",
+					"entries": [
+						"Melee attacks made by creatures {@condition grappled} by Juiblex ignore its damage resistances and score a critical on a 16-20."
+					],
+					"sort": 2
+				},
+				{
+					"name": "Alter Form",
+					"entries": [
+						"At the end of each of its turns, Juiblex can choose a shape for its body. Its new form may be centered on any space its previous form occupied:",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"name": "Fetid Pool",
+									"entries": [
+										"Juiblex becomes a 30 foot radius shallow pool of slime that can enter and occupy the space of any other creature, and frees each creature {@condition grappled} by it. A creature that starts its turn in Juiblex's space takes 9 ({@damage 2d8}) acid damage."
+									],
+									"type": "item"
+								},
+								{
+									"name": "Flowing Prison",
+									"entries": [
+										"Juiblex becomes a 15 foot diameter vortex, then each creature in Juiblex's space must succeed on a {@dc 22} Strength saving throw or be {@condition grappled} (escape {@dc 22}) in Juiblex's space, or pushed into the nearest unoccupied space on a success. Creatures {@condition grappled} by Juiblex are {@condition choking|confc|choking} and take 18 ({@damage 4d8}) acid damage at the start of each of Juiblex's turns."
+									],
+									"type": "item"
+								},
+								{
+									"name": "Towering Slime",
+									"entries": [
+										"Juiblex becomes a 10 foot diameter tower that is up to 40 feet tall. Melee attacks it makes have a reach of 40 feet and deal an additional 11 ({@damage 2d10}) bludgeoning damage."
+									],
+									"type": "item"
+								}
+							]
+						}
+					],
+					"sort": 3
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"Juiblex has advantage on saving throws against spells and other magical effects."
+					],
+					"sort": 4
+				},
+				{
+					"name": "Legendary Resistances (5/Day)",
+					"entries": [
+						"If Juiblex fails a saving throw, he can choose to succeed instead."
+					],
+					"sort": 5
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Juiblex makes three melee attacks."
+					]
+				},
+				{
+					"name": "Corrosive Grasp",
+					"entries": [
+						"{@atk mw} {@hit 14} to hit, reach 20 ft., one creature. {@h}18 ({@dice 2d10 + 7}) bludgeoning plus 27 ({@damage 6d8}) acid damage and the creature is dragged up to 10 feet toward Juiblex's center, or is {@condition grappled} (escape {@dc 22}) if it can't be."
+					]
+				},
+				{
+					"name": "Heaving Mass",
+					"entries": [
+						"{@atk mw} {@hit 14} to hit, reach 10 ft., one creature. {@h}40 ({@damage 6d10 + 7}) bludgeoning damage and the target must succeed on a {@dc 22} Strength saving throw or be knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Caustic Jet {@recharge 5}",
+					"entries": [
+						"Juiblex expels a jet of slime in a 90 foot long, 10 foot wide line. Each creature in the area is pushed 15 feet away and must succeed on a {@dc 21} Constitution saving throw or take 95 ({@damage 10d8 + 50}) acid damage, or half as much on a success."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Blinding Excretion",
+					"entries": [
+						"When Juiblex is hit with a melee attack, it can force the attacker to succeed on a {@dc 21} Constitution saving throw or be {@condition blinded} until the end of Juiblex's next turn."
+					]
+				},
+				{
+					"name": "Birth Scion",
+					"entries": [
+						"When Juiblex takes 50 or more damage in a turn, it can create an Ooze Scion that acts on Juiblex's initiative in an unoccupied space within 15 feet."
+					]
+				},
+				{
+					"name": "Foul Spawning (1/Day)",
+					"entries": [
+						"When Juiblex is reduced below 304 hit points, it can create six Ooze Scions that act on Juiblex's initiative in unoccupied spaces within 15 feet."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Assimilate",
+					"entries": [
+						"Each creature {@condition grappled} by Juiblex must succeed on a {@dc 20} Intelligence saving throw or have its Proficiency Bonus reduced by 1 until it completes a Short or Long Rest, and have Juiblex learn one secret the creature wishes to keep hidden.",
+						"If the creature was an ooze scion, it dies and Juiblex gains temporary hit points equal to the ooze scion's current hit points."
+					]
+				},
+				{
+					"name": "Seething Vitriol",
+					"entries": [
+						"Juiblex loses 11 ({@dice 1d20}) hit points and rolls to recharge its Caustic Jet."
+					]
+				},
+				{
+					"name": "Stolen Spell (Costs 2 Actions)",
+					"entries": [
+						"Juiblex casts a spell of 6th level or below with a casting time of 1 action known by a creature affected by its Assimilate in the last minute."
+					]
+				},
+				{
+					"name": "Wheels Within Wheels (Costs 2 Actions)",
+					"entries": [
+						"If Juiblex has not taken a turn this round, it takes its turn. If it does, it does not take a turn on its initative this round."
+					]
+				}
+			],
+			"traitTags": [
+				"Magic Resistance",
+				"Spider Climb"
+			],
+			"senseTags": [
+				"U"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"TP",
+				"XX"
+			],
+			"damageTags": [
+				"A",
+				"B"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"grappled",
+				"prone"
+			],
+			"token": {
+				"name": "Juiblex",
+				"source": "MTF"
+			},
+			"fluff": {},
+			"uniqueId": "5044b576-aa9a-45fa-b373-765fea852da2"
+		},
+		{
+			"name": "Ooze Scion",
+			"source": "TheAbyss",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": "ooze",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				7
+			],
+			"hp": {
+				"average": 15,
+				"formula": "2d10 + 4"
+			},
+			"speed": {
+				"walk": 20,
+				"climb": 20
+			},
+			"str": 16,
+			"dex": 5,
+			"con": 15,
+			"int": 1,
+			"wis": 5,
+			"cha": 1,
+			"senses": [
+				"blindsight 30 ft. (blind beyond this radius)"
+			],
+			"passive": 8,
+			"resist": [
+				"cold",
+				"fire",
+				"lightning",
+				"bludgeoning",
+				"piercing",
+				"slashing"
+			],
+			"immune": [
+				"acid"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"frightened",
+				"prone"
+			],
+			"cr": "1/2",
+			"trait": [
+				{
+					"name": "Amorphous",
+					"entries": [
+						"The ooze scion can move through a space as narrow as 1 inch wide without squeezing."
+					]
+				},
+				{
+					"name": "Formless Grace",
+					"entries": [
+						"If the ooze scion would take half damage due to succeeding on a saving throw while within 120 feet of Juiblex, it takes no damage instead."
+					]
+				},
+				{
+					"name": "Acrimony of the Faceless Lord",
+					"entries": [
+						"A creature that takes acid damage while within 5 feet of one or more ooze scions takes an additional 4 ({@damage 1d8}) acid damage for each ooze scion within 5 feet of it."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Pseudopod",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) bludgeoning damage. Instead of dealing damage, the ooze scion can grapple the target (escape {@dc 13})."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Mitotic Division",
+					"entries": [
+						"When the ooze scion takes damage of a type it is resistant to, it can create another"
+					]
+				}
+			],
+			"traitTags": [
+				"Amorphous"
+			],
+			"senseTags": [
+				"B"
+			],
+			"damageTags": [
+				"A",
+				"B"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"uniqueId": "7be8f695-9d46-4093-9308-791ee58b8239"
+		},
+		{
+			"name": "Zuggtmoy",
+			"isNamedCreature": true,
+			"source": "TheAbyss",
+			"page": 0,
+			"size": [
+				"L"
+			],
+			"type": {
+				"type": {
+					"choose": [
+						"fiend",
+						"plant"
+					]
+				},
+				"tags": [
+					"demon"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 451,
+				"formula": "47d10 + 192"
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 30
+			},
+			"str": 22,
+			"dex": 15,
+			"con": 18,
+			"int": 20,
+			"wis": 19,
+			"cha": 24,
+			"save": {
+				"dex": "+9",
+				"con": "+11",
+				"wis": "+11"
+			},
+			"skill": {
+				"perception": "+11"
+			},
+			"senses": [
+				"blindsight 30 ft.",
+				"truesight 120 ft."
+			],
+			"passive": 21,
+			"resist": [
+				"cold",
+				"fire",
+				"lightning"
+			],
+			"immune": [
+				"poison",
+				{
+					"immune": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks",
+					"cond": true
+				}
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"poisoned",
+				"stunned"
+			],
+			"languages": [
+				"all",
+				"telepathy 120 ft."
+			],
+			"cr": "23",
+			"trait": [
+				{
+					"name": "Creeping Mycelia",
+					"entries": [
+						"When a creature ends its turn within 10 feet of Zuggtmoy, she may extend a tendril of mycelia from the ground, forcing the creature to succeed on a {@dc 21} Dexterity saving throw or be {@condition grappled} in place (escape {@dc 21}).",
+						"While {@condition grappled} in this way, a creature is {@condition charmed} by Zuggtmoy and takes 11 ({@damage 2d10}) poison damage at the start of each of its turns."
+					],
+					"sort": 0
+				},
+				{
+					"name": "Demonrot Toxin",
+					"entries": [
+						"A creature that starts its turn within 60 feet of Zuggtmoy must succeed on a {@dc 21} Constitution saving throw or lose any Resistance or Immunity to poison or disease that it has for the next 24 hours and be unable to gain Resistance or Immunity to poison or disease until the beginning of its next turn."
+					],
+					"sort": 1
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"Zuggtmoy has advantage on saving throws against spells and other magical effects."
+					],
+					"sort": 2
+				},
+				{
+					"name": "Legendary Resistances (5/Day)",
+					"entries": [
+						"If Zuggtmoy fails a saving throw, she can choose to succeed instead."
+					],
+					"sort": 3
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Zuggtmoy makes two attacks with her Queen's Caress, one of which she may replace with her Sprouting Doom or Rotted Regenesis."
+					]
+				},
+				{
+					"name": "Queen's Caress",
+					"entries": [
+						"{@atk mw} {@hit 13} to hit, reach 10 ft., one creature. {@h}22 ({@dice 4d10}) necrotic plus 18 ({@damage 4d8}) poison damage and the target has disadvantage on Constitution saving throws until the end of Zuggtmoy's next turn."
+					]
+				},
+				{
+					"name": "Sprouting Doom",
+					"entries": [
+						"A roiling growth of multifarious fungus that lasts for a minute bursts forth in a 5 foot radius centered on a point Zuggtmoy can see within 120 feet.",
+						"The area is difficult terrain for nonplant creatures, and a nonplant creature that starts its turn in the area takes 20 poison damage. This effect ends if the area is dealt 20 or more fire or radiant damage from a single source."
+					]
+				},
+				{
+					"name": "Rotted Regenesis",
+					"entries": [
+						"Zuggtmoy's body rapidly blackens and withers, then explodes in a cloud of spores. Each nonplant creature within 10 feet of her must succeed on a {@dc 21} Constitution saving throw or take 18 ({@damage 4d8}) poison damage, or half as much on a success.",
+						"Zuggtmoy reappears in an unoccupied space affected by Sprouting Doom, forming a new body from the fungi there."
+					]
+				},
+				{
+					"name": "Burrowing Sporeflood {@recharge 5}",
+					"entries": [
+						"Zuggtmoy's torso distends and splits, expelling a torrent of flesh-burrowing spores in a 60 foot cone. Each nonplant creature in the area must make a {@dc 21} Constitution saving throw.",
+						"On a failed save, the creature takes 35 ({@dice 10d6}) piercing plus 27 ({@damage 6d8}) poison damage and is infected with Brittle Lung, or takes half as much damage on a successful save."
+					]
+				},
+				{
+					"name": "Garden of Rot and Ruin (1/Day, 9th Level Spell, Concentration)",
+					"entries": [
+						"Each area affected by Sprouting Doom within 120 feet of Zuggtmoy releases a cloud of hallucinogenic spores in a 30 foot radius centered on itself that lasts until the area is destroyed or Zuggtmoy loses {@status concentration}.",
+						"The area is heavily obscured, and each nonplant creature that starts its turn in the area must succeed on a {@dc 21} Constitution saving throw or be {@condition poisoned} until the start of its next turn. While {@condition poisoned} in this way, a creature treats all creatures it is not {@condition charmed} by as hostile."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Rot Mother's Rebirth",
+					"entries": [
+						"When one or more creatures die within 60 feet of Zuggtmoy, she can raise each of them under her control with 20 hit points. The creatures' type becomes plant/undead."
+					]
+				},
+				{
+					"name": "Consumptive Bloom",
+					"entries": [
+						"When Zuggtmoy is targeted with an attack or spell, she can kill one friendly plant creature within 30 feet of her. If she does, she immediately uses her Rotted Regenesis."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Sprouting Doom",
+					"entries": [
+						"Zuggtmoy uses her Sprouting Doom."
+					]
+				},
+				{
+					"name": "Feast on the Fallen",
+					"entries": [
+						"A carpet of fungal growths spreads over one {@condition prone} creature Zuggtmoy can see within 30 feet and takes root in its flesh.",
+						"Until a creature clears them as an action, whenever the affected creature would receive any amount magical healing it instead receives half as much."
+					]
+				},
+				{
+					"name": "Cultivator's Reap",
+					"entries": [
+						"Zuggtmoy moves up to half her speed. If she ends this movement within 10 feet of a friendly plant creature, it loses half its current hit points and Zuggtmoy gains temporary hit points equal to the hit points lost."
+					]
+				},
+				{
+					"name": "Breed Ruin (Costs 2 Actions)",
+					"entries": [
+						"Zuggtmoy creates a Deathbloom Sporocyte in an unoccupied space within 60 feet affected by Sprouting Doom."
+					]
+				}
+			],
+			"traitTags": [
+				"Magic Resistance"
+			],
+			"senseTags": [
+				"B",
+				"U"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"XX",
+				"TP"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"charmed",
+				"grappled",
+				"poisoned"
+			],
+			"token": {
+				"name": "Zuggtmoy",
+				"source": "MTF"
+			},
+			"fluff": {},
+			"uniqueId": "a7ec6def-b3a8-4035-9ba2-f8ebe008138e",
+			"legendaryGroup": {
+				"name": "Zuggtmoy",
+				"source": "MPMM"
+			},
+			"damageTags": [
+				"I"
+			],
+			"savingThrowForced": [
+				"constitution",
+				"dexterity"
 			]
+		},
+		{
+			"name": "Deathbloom Sporocyte",
+			"source": "TheAbyss",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": "plant",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor",
+						"10 while unfurled"
+					]
+				}
+			],
+			"hp": {
+				"average": 127,
+				"formula": "18d8 + 36"
+			},
+			"speed": {
+				"walk": 25
+			},
+			"str": 16,
+			"dex": 10,
+			"con": 15,
+			"int": 4,
+			"wis": 6,
+			"cha": 5,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 8,
+			"immune": [
+				"poison"
+			],
+			"vulnerable": [
+				"acid",
+				"radiant"
+			],
+			"conditionImmune": [
+				"poisoned"
+			],
+			"cr": "4",
+			"trait": [
+				{
+					"name": "Corpse Drainer",
+					"entries": [
+						"If the sporocyte starts its turn within 5 feet of one or more dead or {@condition unconscious} creatures, it gains 5 ({@dice 1d10}) temporary hit points and each creature in the area takes an equal amount of necrotic damage. On a roll of 10, a random corpse within 5 feet of the sporocyte dissolves."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Rotting Slam",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) bludgeoning damage plus 10 ({@damage 3d6}) necrotic damage. A creature reduced to 0 hit points by this damage immediately fails a Death saving throw."
+					]
+				},
+				{
+					"name": "Unfurl Mycelia",
+					"entries": [
+						"The sporocyte spreads a carpet of mycelia over the ground within 5 feet of it. square centered on itself.",
+						"While unfurled, the sporocyte's movement speed is 0, the affected area is difficult terrain, and if the sporocyte would gain temporary hit points, it instead gains twice as many temporary hit points. The sporocyte may retract its mycelia as a bonus action."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Spore Gout (1/Day)",
+					"entries": [
+						"As a reaction to being hit with a melee attack, the sporocyte releases a torrent of spores in a 15 foot cone.",
+						"Each nonplant creature in the area must succeed on a {@dc 12} Constitution saving throw or take 7 ({@damage 2d6}) poison damage and be infected with {@disease burrow-diver mycosis|ConfC}."
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"damageTags": [
+				"B",
+				"I",
+				"N"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"uniqueId": "7f1d9144-a765-4e61-b5fa-cbf4f47eaace"
 		}
 	],
 	"item": [
@@ -10451,7 +10845,8 @@
 				"Silver moonlight flares around the target as Eilistraee's protection answers your call. The triggering attack deals no damage, as though it had missed instead of scoring a critical hit.",
 				"Once you use this boon, you can't use it again until you finish a long rest."
 			],
-			"source": "TheAbyss"
+			"source": "TheAbyss",
+			"uniqueId": "1808e1bc-bfcc-4515-9f18-ee7feaa090a5"
 		}
 	]
 }
