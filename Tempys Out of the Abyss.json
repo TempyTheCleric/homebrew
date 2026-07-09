@@ -6,12 +6,12 @@
 				"abbreviation": "TOA",
 				"full": "Tempys Out of the Abyss",
 				"url": "",
-				"authors": [],
+				"authors": ["Tempest"],
 				"convertedBy": [
 					"TempyTheCleric"
 				],
-				"color": "6608d9",
-				"version": "1.0.10"
+				"color": "#D100D1",
+				"version": "1.0.20"
 			}
 		]
 	},
@@ -7025,8 +7025,8 @@
 				}
 			],
 			"hp": {
-				"formula": "1d8 + 12d6",
-				"average": 109
+				"formula": "1d8 + 13d6",
+				"average": 118
 			},
 			"speed": {
 				"walk": 30,
@@ -7039,7 +7039,7 @@
 			"wis": 12,
 			"cha": 14,
 			"passive": 16,
-			"level": 13,
+			"level": 14,
 			"senses": [
 				"darkvision 60 ft."
 			],
@@ -7065,7 +7065,142 @@
 				"perception": "+6",
 				"stealth": "+7"
 			},
-			"isNpc": true
+			"isNpc": true,
+			"spellcasting": [
+				{
+					"name": "Special Casts",
+					"headerEntries": [
+						"She can also cast these spells using spell slots she has of the appropriate level."
+					],
+					"restLong": {
+						"1": [
+							"{@spell gift of alacrity|EGW}",
+							"{@spell misty step}"
+						]
+					},
+					"type": "spellcasting"
+				},
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Dominga is a 14th level Intelligence caster with a 20 DC and a +12 attack bonus."
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell booming blade|TCE}",
+								"{@spell chill touch}",
+								"{@spell fire bolt}",
+								"{@spell green-flame blade|TCE}",
+								"{@spell guidance}",
+								"{@spell mage hand}",
+								"{@spell mind sliver|TCE}",
+								"{@spell minor illusion}",
+								"{@spell prestidigitation}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell absorb elements|XGE}",
+								"{@spell charm person}",
+								"{@spell comprehend languages}",
+								"{@spell cure wounds}",
+								"{@spell detect magic}",
+								"{@spell expeditious retreat}",
+								"{@spell feather fall}",
+								"{@spell find familiar}",
+								"{@spell longstrider}",
+								"{@spell magic missile}",
+								"{@spell shield}",
+								"{@spell silvery barbs|SCC}",
+								"{@spell Tasha's caustic brew|TCE}",
+								"{@spell thunderwave}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell detect thoughts}",
+								"{@spell gentle repose}",
+								"{@spell hold person}",
+								"{@spell invisibility}",
+								"{@spell suggestion}",
+								"{@spell wither and bloom|SCC}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell bestow curse}",
+								"{@spell counterspell}",
+								"{@spell dispel magic}",
+								"{@spell fireball}",
+								"{@spell haste}",
+								"{@spell hypnotic pattern}",
+								"{@spell remove curse}",
+								"{@spell sending}",
+								"{@spell summon shadowspawn|TCE}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell banishment}",
+								"{@spell divination}",
+								"{@spell polymorph}",
+								"{@spell raulothim's psychic lance|FTD}",
+								"{@spell watery sphere|XGE}"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell contact other plane}",
+								"{@spell dream}",
+								"{@spell hold monster}",
+								"{@spell modify memory}",
+								"{@spell teleportation circle}",
+								"{@spell wall of force}"
+							],
+							"slots": 2
+						},
+						"6": {
+							"spells": [
+								"{@spell mass suggestion}"
+							],
+							"slots": 1
+						},
+						"7": {
+							"spells": [
+								"{@spell Mordenkainen's magnificent mansion}",
+								"{@spell teleport}"
+							],
+							"slots": 1
+						}
+					},
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"O"
+			],
+			"damageTagsSpell": [
+				"A",
+				"F",
+				"N",
+				"O",
+				"T",
+				"Y"
+			],
+			"savingThrowForcedSpell": [
+				"charisma",
+				"constitution",
+				"dexterity",
+				"intelligence",
+				"strength",
+				"wisdom"
+			]
 		},
 		{
 			"name": "Kay",
@@ -10111,6 +10246,147 @@
 			],
 			"savingThrowForced": [
 				"constitution"
+			]
+		},
+		{
+			"name": "Kay",
+			"size": [
+				"S"
+			],
+			"type": {
+				"type": "",
+				"tags": [
+					{
+						"tag": "Rogue",
+						"prefix": "9"
+					},
+					{
+						"tag": "Ranger",
+						"prefix": "5"
+					}
+				]
+			},
+			"source": "TheAbyss",
+			"alignment": null,
+			"ac": [
+				{
+					"ac": 20,
+					"from": [
+						"{@item glamoured studded leather}",
+						"blessing of protection"
+					]
+				}
+			],
+			"hp": {
+				"formula": "5d10 + 8d8",
+				"average": 156
+			},
+			"speed": {
+				"walk": 25
+			},
+			"str": 5,
+			"dex": 22,
+			"con": 20,
+			"int": 13,
+			"wis": 14,
+			"cha": 8,
+			"passive": 22,
+			"level": 14,
+			"senses": [
+				"darkvision 90 ft.",
+				"blindsight 10 ft."
+			],
+			"senseTags": [
+				"D",
+				"B"
+			],
+			"languages": [
+				"Common",
+				"Dwarvish",
+				"Elvish",
+				"Gnomish",
+				"Halfling",
+				"Thieves' cant"
+			],
+			"languageTags": [
+				"C",
+				"D",
+				"E",
+				"G",
+				"H",
+				"TC"
+			],
+			"save": {
+				"dex": "+11",
+				"int": "+6"
+			},
+			"skill": {
+				"acrobatics": "+16",
+				"animal handling": "+7",
+				"deception": "+4",
+				"investigation": "+6",
+				"perception": "+12",
+				"sleight of hand": "+16",
+				"stealth": "+16"
+			},
+			"isNpc": true,
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Kay is a 2nd level Wisdom caster with a 15 DC and a +7 attack bonus."
+					],
+					"spells": {
+						"1": {
+							"spells": [
+								"{@spell disguise self}",
+								"{@spell goodberry}",
+								"{@spell hunter's mark}",
+								"{@spell speak with animals}",
+								"{@spell zephyr strike|XGE}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell beast sense}",
+								"{@spell healing spirit|XGE}",
+								"{@spell rope trick}"
+							],
+							"slots": 2
+						}
+					},
+					"ability": "wis",
+					"type": "spellcasting"
+				},
+				{
+					"name": "Champion of Eilistraee",
+					"headerEntries": [
+						"The following spells are available to the champion and can be base in any combination up to their proficiency level between each long rest.  Constitution is used for the casting; Kay has an 18 DC."
+					],
+					"restLong": {
+						"1": [
+							"{@spell moon shield|TheAbyss}"
+						],
+						"5": [
+							"{@spell faerie fire}",
+							"{@spell moonbeam}"
+						]
+					},
+					"ability": "con",
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"O"
+			],
+			"damageTagsSpell": [
+				"O",
+				"R"
+			],
+			"savingThrowForcedSpell": [
+				"constitution",
+				"dexterity"
 			]
 		}
 	],
