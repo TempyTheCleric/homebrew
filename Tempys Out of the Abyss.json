@@ -10848,5 +10848,15 @@
 			"source": "TheAbyss",
 			"uniqueId": "1808e1bc-bfcc-4515-9f18-ee7feaa090a5"
 		}
+	],
+	"condition": [
+		{
+			"name": "Brittle Lung",
+			"source": "TheAbyss",
+			"page": 0,
+			"entries": [
+				"Whenever an infected creature speaks or performs the verbal components of a spell, it must succeed on a {@dc 21} Constitution saving throw or begin Choking until it uses an action to catch its breath. A creature that fails this saving throw by 5 or more instead begins Choking for the next {@dice 2d4} minutes, and can use its action to repeat this saving throw, catching its breath on a success."
+			]
+		}
 	]
 }
