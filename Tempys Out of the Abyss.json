@@ -10639,7 +10639,7 @@
 			"dmgType": "B",
 			"bonusWeapon": "+2",
 			"entries": [
-				"This hammer was forged by Loth'remar, one of the founding dwarves of the city of Gauntlgrym, under the blessing of Moradin. It was then given to the Emberheart clan of the same city, where it has served as a token to the lasting bond between their two families. When swung, the head of the hammer emits a flash of forgefire before immediately cooling once more. You can use this weapon as part of a {@item smith's tools|phb} set. When you do, any check you make using those tools is made with advantage.",
+				"This hammer was forged by Loth'remar, one of the founding dwarves of the city of Gauntlgrym, under the blessing of Moradin. It was then given to the Emberheart clan of the same city, where it has served as a token to the lasting bond between their two families, when shattered during the spellplague, pieces of the original hammer where handed down to subsequent generations to be forged into their own weapons in honor of Moradin. When swung, the head of the hammer emits a flash of forgefire before immediately cooling once more. You can use this weapon as part of a {@item smith's tools|phb} set. When you do, any check you make using those tools is made with advantage.",
 				"You gain a +2 bonus to attack and damage rolls made with this magic hammer, which deals an extra {@damage 1d8} fire damage to any target it hits. If the target is made of stone, the weapon's bludgeoning damage is doubled. If it's made of metal or is wearing metal armor, the fire damage is doubled. In addition, you have resistance to fire damage while attuned to the hammer. If you are a dwarf, you have immunity to fire damage instead."
 			]
 		}
