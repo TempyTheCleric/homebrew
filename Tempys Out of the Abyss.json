@@ -10569,7 +10569,7 @@
 			"name": "Prayer Beads of Grace",
 			"source": "TheAbyss",
 			"page": 0,
-			"type": "Wonderous Item",
+			"type": "Wondrous Item",
 			"rarity": "Very Rare",
 			"weight": 0.2,
 			"entries": [
@@ -10594,7 +10594,7 @@
 			"name": "Silvertongue's Finery",
 			"source": "TheAbyss",
 			"page": 0,
-			"type": "Wonderous Item",
+			"type": "Wondrous Item",
 			"rarity": "Legendary",
 			"reqAttune": true,
 			"weight": 3,
@@ -10610,7 +10610,7 @@
 			"name": "Pinchglass",
 			"source": "TheAbyss",
 			"page": 0,
-			"type": "Wonderous Item",
+			"type": "Wondrous Item",
 			"rarity": "Artifact",
 			"weight": 0.01,
 			"entries": [
@@ -10618,6 +10618,29 @@
 				"{@b Using a Pinch.} As part of casting a spell, you can expend one pinch of sand to cover the gold cost of all of that spell's material components, regardless of their value.",
 				"{@b Regaining Sand.} At each dawn, if the vial holds at least 1 pinch, it regains {@dice 1d4} − 1 pinches (minimum 0), up to its maximum of 3.",
 				"{@b Dormancy.} If the vial is ever emptied of all pinches, it goes dormant and its regeneration pauses entirely. At each dawn while dormant, roll a {@dice d6}: on a 5 or 6, the vial wakes and regains its full 3 pinches. Otherwise, it remains dormant and empty."
+			]
+		},
+		{
+			"name": "Emberheart Hammer",
+			"source": "TheAbyss",
+			"page": 0,
+			"baseItem": "warhammer|phb",
+			"type": "M",
+			"tier": "major",
+			"rarity": "Legendary",
+			"reqAttune": true,
+			"weight": 2,
+			"weaponCategory": "martial",
+			"property": [
+				"V"
+			],
+			"dmg1": "1d8",
+			"dmg2": "1d10",
+			"dmgType": "B",
+			"bonusWeapon": "+2",
+			"entries": [
+				"This hammer was forged by Loth'remar, one of the founding dwarves of the city of Gauntlgrym, under the blessing of Moradin. It was then given to the Emberheart clan of the same city, where it has served as a token to the lasting bond between their two families. When swung, the head of the hammer emits a flash of forgefire before immediately cooling once more. You can use this weapon as part of a {@item smith's tools|phb} set. When you do, any check you make using those tools is made with advantage.",
+				"You gain a +2 bonus to attack and damage rolls made with this magic hammer, which deals an extra {@damage 1d8} fire damage to any target it hits. If the target is made of stone, the weapon's bludgeoning damage is doubled. If it's made of metal or is wearing metal armor, the fire damage is doubled. In addition, you have resistance to fire damage while attuned to the hammer. If you are a dwarf, you have immunity to fire damage instead."
 			]
 		}
 	],
