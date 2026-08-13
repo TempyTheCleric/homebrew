@@ -10551,6 +10551,77 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Vile of Deva's Ichor",
+			"source": "TheAbyss",
+			"page": 0,
+			"type": "P",
+			"rarity": "Very Rare",
+			"weight": 0.01,
+			"entries": [
+				"Painfully bright liquid light swirls inside a hollowed-out crystal vial. The crystal is thin and fragile, dissolving easily as if made of sugar.",
+				"When eaten, you regain 40 hit points and are cured of one curse afflicting you.",
+				"If fed to a fiend or undead creature, it instead takes 80 radiant damage. Feeding it to a creature hostile toward you uses grappling mechanics."
+			]
+		},
+		{
+			"name": "Prayer Beads of Grace",
+			"source": "TheAbyss",
+			"page": 0,
+			"type": "W",
+			"rarity": "Very Rare",
+			"weight": 0.2,
+			"entries": [
+				"A simple necklace with stone beads faintly humming with divine resonance. This necklace has only 3 beads left.",
+				"As a bonus action or reaction, you can expend a bead to gain advantage on one attack roll, saving throw, or ability check. If you use this to aid another creature, you both gain the advantage."
+			]
+		},
+		{
+			"name": "Appraiser's Eye",
+			"source": "TheAbyss",
+			"page": 0,
+			"type": "W",
+			"rarity": "Rare",
+			"weight": 0,
+			"entries": [
+				"A golden sphere the size of an eyeball, its iris bejeweled and faintly warm. No attunement is required to use it, it functions freely in the owner's hand or socket alike.",
+				"The eye has 3 charges and regains 1d3 expended charges daily at dawn. While holding the eye, you can use an action to expend 1 charge to cast {@spell identify} from it. You can also use the eye as the material component required for {@spell legend lore}; each time, there is a flat 10 percent chance the sphere is consumed by the spell (this chance does not increase with repeated use).",
+				"You have advantage on Intelligence checks made to determine an item's value, and on Wisdom ({@skill Perception}) checks that rely on sight while holding the eye."
+			]
+		},
+		{
+			"name": "Silvertongue's Finery",
+			"source": "TheAbyss",
+			"page": 0,
+			"type": "W",
+			"rarity": "Legendary",
+			"reqAttune": true,
+			"weight": 3,
+			"entries": [
+				"A fine gentleman's suit that matches any occasion, spotless without effort, tailored to a perfect fit no matter how the wearer's build changes, and cut in a style that shifts to suit wherever they're standing. The wearer can also will the change themselves at any time. The richness of the fabric and craftsmanship visibly tracks the wearer's reputation in the world.",
+				"While worn, your base AC is 19 (this does not stack with worn armor).",
+				"Once per long rest, you can force one Charisma check, your own or a creature you can see, to succeed or fail outright, no roll required.",
+				"You have advantage on Constitution saving throws made to maintain concentration on a spell while wearing the garments.",
+				"You can sense whenever a creature within 60 feet casts a spell from the illusion school, or a spell that forces a target to make a Charisma saving throw, and can pinpoint the direction and location of the caster, even if the caster is invisible or otherwise hidden, without needing an action to do so. This doesn't reveal the caster's identity, only where the magic is coming from."
+			]
+		},
+		{
+			"name": "Pinchglass",
+			"alias": [
+				"Pink Pinchglass"
+			],
+			"source": "TheAbyss",
+			"page": 0,
+			"type": "W",
+			"rarity": "Artifact",
+			"weight": 0.01,
+			"entries": [
+				"A slim crystal vial, no longer than a finger, shaped like an hourglass but with no way to turn it, the sand only ever falls one direction, and never runs out on its own. Inside is a shifting store of pink sand from the Sand Gardens. The vial holds a maximum of 3 pinches of sand and begins full.",
+				"{@b Using a Pinch.} As part of casting a spell, you can expend one pinch of sand to cover the gold cost of all of that spell's material components, regardless of their value.",
+				"{@b Regaining Sand.} At each dawn, if the vial holds at least 1 pinch, it regains {@dice 1d4} − 1 pinches (minimum 0), up to its maximum of 3.",
+				"{@b Dormancy.} If the vial is ever emptied of all pinches, it goes dormant and its regeneration pauses entirely. At each dawn while dormant, roll a {@dice d6}: on a 5 or 6, the vial wakes and regains its full 3 pinches. Otherwise, it remains dormant and empty."
+			]
 		}
 	],
 	"spell": [
@@ -10582,6 +10653,81 @@
 			],
 			"source": "TheAbyss",
 			"uniqueId": "1808e1bc-bfcc-4515-9f18-ee7feaa090a5"
+		},
+		{
+			"name": "Dominga's Splendiferous Sandcastle",
+			"source": "TheAbyss",
+			"page": 0,
+			"level": 7,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 300
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a piece of the fountain of creation, a small piece of sea glass, a tiny silver spoon, and a pinch of sand from the Sandgardens"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 24
+					}
+				}
+			],
+			"classes": {
+				"fromClassList": []
+			},
+			"entries": [
+				"This spell is unique to Dominga.",
+				"You conjure a shimmering, sandy portal within range, its glow tinted the color of the sea glass used to cast it. It opens onto your Domain of Delight, the Sandgardens. You have full creative control over its interior, and it never really needs to be \"created\" so much as visited; it's always there, waiting for guests.",
+				"Any creature that is friendly toward you, or that you welcome in, may pass through the portal. This welcome can be extended or withdrawn at will to all creatures. You can open or close the conjured portal if within 30 feet; while closed, it's invisible.",
+				"Closing it against your will takes real effort. Any creature attempting to forcibly dispel or seal the conjured portal must succeed on an Intelligence saving throw or the attempt fails. The DC is fixed at the moment the portal was opened, equal to your spell save DC plus your proficiency bonus at that time, and doesn't change even if your own DC or proficiency later changes.",
+				"Beyond the entrance lies a magnificent foyer and chambers, warm and fragrant with sea-salt air, an intimate reflection of your domain. You choose its floor plan and furnish and decorate it as you like, with no limit on size or number of rooms. It holds a standing nine-course banquet for up to 100 and is staffed by 100 near-transparent servants of your design, obedient to you, unable to harm anyone.",
+				"Objects left behind persist. Furnishings and items brought inside don't dissipate when the portal closes; they simply remain until someone returns for them.",
+				{
+					"type": "entries",
+					"name": "Additional Entrances",
+					"entries": [
+						"By casting {@spell wish}, you may inscribe a new permanent entrance into any existing doorway on any plane you can reach, permanently linking it to the sandcastle's interior. Like the original entrance, these doorways never close on their own and require no proximity to use, admitting only those you welcome. No permanent doorway made this way can be dispelled or sealed by any means; only the portal conjured by the spell itself can be forced shut."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Planar Attunement",
+					"entries": [
+						"Every creature other than you becomes attuned to whichever entrance they used to enter:",
+						{
+							"type": "list",
+							"items": [
+								"Enter through a portal or doorway anchored to a given plane, and you're attuned to that plane.",
+								"An attuned creature can only exit via a connection back to their own entry plane. Teleportation, plane shift, or similar magic that would move them to an exit on a different plane simply fails or redirects them to their own entrance."
+							]
+						},
+						"You (Dominga) are the exception. As the domain's anchor, you move and exit freely between all entrances regardless of which one you used."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Duration and Tether",
+					"entries": [
+						"The conjured portal closes automatically 24 hours after casting, expelling any creatures attuned to that casting's plane who are still inside to the nearest open space by that entrance.",
+						"If you cast the spell from the Material Plane and remain inside past 34 hours from the moment that portal opened, the residual link back to your casting unravels. You and all others attuned to the portal become stranded on whichever side you're currently on until you leave by other means: a permanent doorway, plane shift, or another creature opening a portal from outside."
+					]
+				}
+			]
 		}
 	],
 	"condition": [
@@ -10591,6 +10737,63 @@
 			"page": 0,
 			"entries": [
 				"Whenever an infected creature speaks or performs the verbal components of a spell, it must succeed on a {@dc 21} Constitution saving throw or begin Choking until it uses an action to catch its breath. A creature that fails this saving throw by 5 or more instead begins Choking for the next {@dice 2d4} minutes, and can use its action to repeat this saving throw, catching its breath on a success."
+			]
+		}
+	],
+	"reward": [
+		{
+			"name": "Unbreaking",
+			"source": "TheAbyss",
+			"page": 0,
+			"type": "Boon",
+			"entries": [
+				"A personal boon, not a physical item, what survived of Zuggtmoy's madness inside Thavian, hardened by Tymora into a shield rather than left to fester as a wound.",
+				"Thavian is immune to indefinite madness caused by a demon lord.",
+				"He has advantage on all saving throws against any effect that would inflict madness, regardless of its source.",
+				"Once per long rest, Thavian can call on what he survived to shield his entire party. For 1 minute, every creature of his choice that he can see within 60 feet becomes immune to madness effects, regardless of source. This can be triggered as a reaction, the instant before an effect would take hold, or proactively at the start of a fight he knows is coming."
+			]
+		},
+		{
+			"name": "Sandstep",
+			"source": "TheAbyss",
+			"page": 0,
+			"type": "Boon",
+			"entries": [
+				"A personal boon, not a physical item, a mark of Dominga's growing fey nature as she steps into her role as the Sand Gardens' new archfey.",
+				"Whenever Dominga casts a spell of 1st level or higher, she may also teleport, no action required, to an unoccupied space she can see within 60 feet of her current location. This teleport happens after the spell resolves, at her choice, whether or not the spell takes effect, and doesn't require the spell to target the destination in any way. She doesn't simply vanish and reappear; she sinks half a step into loose pink sand that spills from nowhere and closes over her, then rises the same way at her destination."
+			]
+		},
+		{
+			"name": "Moon Wings",
+			"source": "TheAbyss",
+			"page": 0,
+			"type": "Boon",
+			"entries": [
+				"A personal boon, not a physical item, twin wings of silver moonlight that Kay can call from her own shoulders (sometimes drawn visibly out of her shadow) as Eilistraee's gift.",
+				"As a bonus action, Kay may speak the command word \"Wax\" to manifest the wings. While active, Kay gains a flying speed equal to her walking speed, and the wings shed dim light in a 10-foot radius, though as a divine gift it doesn't reveal her to hostile creatures or impose any penalty on her Stealth checks.",
+				"If Kay is knocked unconscious, the wings vanish immediately. If the wings end while Kay is airborne, whether dismissed with the command word \"Wane\", expired, or cut short by unconsciousness, they spend themselves in one last pulse of moonlight, easing her gently to the ground. She takes no fall damage.",
+				"Once the wings end, they can't be summoned again until Kay finishes a long rest."
+			]
+		},
+		{
+			"name": "Eilistraee's Grace",
+			"source": "TheAbyss",
+			"page": 0,
+			"type": "Boon",
+			"entries": [
+				"A personal boon, not a physical item, a standing bond between Kay and Eilistraee, granted in a dream where the Dark Maiden spoke to her directly for the first time.",
+				"Once per long rest, as a bonus action, Kay may call out to Eilistraee by name. Roll a {@dice d20}: on a 16 or higher, the Dark Maiden answers, and her grace enters the fight, whether as a flash of moonlight blinding a foe, an opening that wasn't there a second before, courage steadying an ally's blade, or whatever the moment calls for.",
+				"Even when the moon stays quiet, Kay's faith isn't wasted; she's just fighting this one herself, the way Eilistraee believes her capable of."
+			]
+		},
+		{
+			"name": "The Well's Depth",
+			"source": "TheAbyss",
+			"page": 0,
+			"type": "Boon",
+			"entries": [
+				"A personal boon, not a physical item, Dominga's mind deepening alongside the domain she now stewards.",
+				"Dominga's Intelligence score can now be increased above 20 through normal means (Ability Score Improvements, magic items, and so on), up to a maximum of 30."
 			]
 		}
 	]
