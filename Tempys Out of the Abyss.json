@@ -10556,7 +10556,7 @@
 			"name": "Vile of Deva's Ichor",
 			"source": "TheAbyss",
 			"page": 0,
-			"type": "P",
+			"type": "Potion",
 			"rarity": "Very Rare",
 			"weight": 0.01,
 			"entries": [
@@ -10569,7 +10569,7 @@
 			"name": "Prayer Beads of Grace",
 			"source": "TheAbyss",
 			"page": 0,
-			"type": "W",
+			"type": "Wonderous Item",
 			"rarity": "Very Rare",
 			"weight": 0.2,
 			"entries": [
@@ -10594,7 +10594,7 @@
 			"name": "Silvertongue's Finery",
 			"source": "TheAbyss",
 			"page": 0,
-			"type": "W",
+			"type": "Wonderous Item",
 			"rarity": "Legendary",
 			"reqAttune": true,
 			"weight": 3,
@@ -10608,12 +10608,9 @@
 		},
 		{
 			"name": "Pinchglass",
-			"alias": [
-				"Pink Pinchglass"
-			],
 			"source": "TheAbyss",
 			"page": 0,
-			"type": "W",
+			"type": "Wonderous Item",
 			"rarity": "Artifact",
 			"weight": 0.01,
 			"entries": [
