@@ -5812,11 +5812,6 @@
 			"senseTags": [
 				"SD"
 			],
-			"languageTags": [
-				"C",
-				"U",
-				"D"
-			],
 			"hasFluffImages": true,
 			"size": [
 				"M"
@@ -5826,47 +5821,35 @@
 				"tags": [
 					{
 						"tag": "dwarf",
-						"prefix": "Mountain"
+						"prefix": "Mountain",
+						"prefixHidden": true
 					}
 				]
 			},
-			"alignment": [
-				"A"
-			],
+			"alignment": null,
 			"ac": [
 				{
-					"ac": 18,
+					"ac": 20,
 					"from": [
-						"{@item plate armor|phb}"
+						"{@item dwarven plate}"
 					]
 				}
 			],
 			"hp": {
-				"formula": "11d10 + 11",
-				"average": 71
+				"formula": "16d10 + 64",
+				"average": 152
 			},
 			"speed": {
 				"walk": 30
 			},
-			"str": 18,
+			"str": 20,
 			"dex": 12,
-			"con": 14,
+			"con": 18,
 			"int": 10,
-			"wis": 16,
-			"cha": 14,
-			"skill": {
-				"perception": "+7",
-				"survival": "+7",
-				"stealth": "+5",
-				"athletics": "+8"
-			},
-			"passive": 17,
-			"languages": [
-				"Common",
-				"Undercommon",
-				"Dwarvish"
-			],
-			"cr": "11",
+			"wis": 12,
+			"cha": 16,
+			"passive": 16,
+			"cr": "16",
 			"trait": [
 				{
 					"name": "Keen Hearing and Sight",
@@ -5877,31 +5860,57 @@
 				{
 					"name": "Dwarven Resilience",
 					"entries": [
-						"Eldeth has advantage on saving throws against poison and has resistance against poison damage."
+						"Eldeth has advantage on saving throws against poison, and has resistance against poison damage."
 					]
 				},
 				{
-					"name": "Martial Role Attacker",
+					"name": "Paladin Trait: Divine Sense 4x per long rest",
 					"entries": [
-						"Eldeth gains a +2 bonus to all attack rolls."
+						"As an action, Eldeth can open her awareness to detect such forces. Until the end of her next turn, she know the location of any celestial, fiend, or undead within 60 feet of her that is not behind total cover. She know the type of any being sensed, but not its identity. Within the same radius, she also detect the presence of any place or object that has been consecrated or desecrated, as with the hallow {@spell hallow}."
 					]
 				},
 				{
-					"name": "Improved Critical",
+					"name": "Paladin Trait: Lay on Hands 80 hp pool",
 					"entries": [
-						"Eldeth's attack rolls score a critical hit on a roll of 19 or 20 on the {@dice d20}."
+						"Eldeth has a pool of healing power that replenishes when she takes a long rest. As an action, she can touch a creature to restore a number of hit points up to the maximum amount remaining in your pool.",
+						"Alternatively, she can expend 5 hit points from her pool of healing to cure the target of one disease or neutralize one poison affecting it. ",
+						"This feature has no effect on undead and constructs."
 					]
 				},
 				{
-					"name": "Battle Readiness",
+					"name": "Inventory: Dwarven Plate",
 					"entries": [
-						"Eldeth has advantage on initiative rolls."
+						"Eldeth is wearing {@item dwarven plate}"
 					]
 				},
 				{
-					"name": "Indomitable",
+					"name": "Inventory: Emberheart Hammer",
 					"entries": [
-						"Eldeth can reroll a saving throw that it fails, but it must use the new roll. When it uses this feature, it can't use the feature again until it finishes a long rest."
+						"Eldeth wields {@item Emberheart Hammer | TheAbyss}"
+					]
+				},
+				{
+					"name": "Paladin Trait: Divine Smite",
+					"entries": [
+						"When Eldeth hits a creature with a melee weapon attack, they take {@dice 1d8} extra radiant damage. She can expend one spell slot to deal additional damage. The extra damage is {@dice 2d8} for a 1st-level spell slot, plus {@dice 1d8} for each spell level higher than 1st, to a maximum of {@dice 5d8}. The damage increases by {@dice 1d8} if the target is an undead or a fiend, to a maximum of {@dice 6d8}."
+					]
+				},
+				{
+					"name": "Paladin Trait: Fighting Style, Great Weapon Fighting",
+					"entries": [
+						"When Eldeth rolls a 1 or 2 on a damage die for a melee weapon she's wielding with two hands, she can reroll the die and must use the new roll, even if the new roll is a 1 or a 2."
+					]
+				},
+				{
+					"name": "Paladin Trait: Divine Health and Purity of Spirit",
+					"entries": [
+						"Eldeth is immune to disease and always under the effects of {@spell protection from evil and good}."
+					]
+				},
+				{
+					"name": "Paladin Trait: Aura of Kinship",
+					"entries": [
+						"Eldeth and any friendly creatures within 30 feet of her cannot be {@condition charmed} or {@condition frightened}, and any friendly creature within 10 feet of her (or herself) forced to make a saving throw gains a +3 bonus to their roll only while she is conscious."
 					]
 				}
 			],
@@ -5909,21 +5918,31 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"Eldeth makes two melee attacks or two ranged attacks and can replace any second attack with a use of her Holy Fire."
+						"Eldeth makes two melee attacks."
 					]
 				},
 				{
-					"name": "Maul",
+					"name": "Turn the Unholy (1/rest)",
 					"entries": [
-						"{@atk mw} {@hit +10} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) bludgeoning damage."
+						"Each fiend and undead within 30 feet that can see or hear Eldeth must succeed on a Wisdom save or be {@condition turned|ConfC} for 1 minute or until it takes damage. A {@condition turned|ConfC} creature must move away from her, can't willingly end its turn within 30 feet of her, can't take reactions, and on its turn can only Dash or try to escape a restraint, or Dodge if it can't move."
 					]
 				},
 				{
-					"name": "Holy Fire.",
+					"name": "Cleansing Touch (3/long rest)",
 					"entries": [
-						"Eldeth targets one creature she can see within 60 feet of her. The target must make a {@dc 15} Wisdom saving throw. On a failed save, the target takes ({@damage 2d8 + 3}) radiant damage radiant damage, and it is {@condition blinded} until the start of the war priest's next turn. On a successful save, the target takes half as much damage and isn't {@condition blinded}."
+						"Eldeth can use her action to end one spell on herself or on one willing creature that she touches."
+					]
+				},
+				{
+					"name": "Emberheart Hammer",
+					"entries": [
+						"{@atk mw} {@hit 12} to hit, reach 5 ft., one target. ({@damage 1d8 + 7}) bludgeoning damage, or ({@damage 1d10 + 7}) damage if used with both hands, plus ({@damage 1d8}) fire and ({@damage 1d8}) radiant damage."
 					]
 				}
+			],
+			"attachedItems": [
+				"longbow|phb",
+				"shortsword|phb"
 			],
 			"traitTags": [
 				"Keen Senses"
@@ -5931,11 +5950,11 @@
 			"actionTags": [
 				"Multiattack"
 			],
-			"senses": [
-				"darkvision 120 ft."
-			],
 			"resist": [
 				"poison"
+			],
+			"senses": [
+				"darkvision 120 ft."
 			],
 			"token": {
 				"name": "Eldeth Feldrun",
@@ -5950,73 +5969,91 @@
 						"href": {
 							"type": "internal",
 							"path": "bestiary/OotA/Eldeth Feldrun.webp"
-						}
+						},
+						"width": 926,
+						"height": 347
 					}
 				]
 			},
-			"level": 11,
+			"level": 16,
+			"skill": {
+				"survival": "+6",
+				"intimidation": "+8",
+				"athletics": "+10",
+				"perception": "+6"
+			},
 			"save": {
-				"wis": "+7"
+				"cha": "+8"
 			},
 			"miscTags": [
-				"MW",
-				"MLW"
-			],
-			"attachedItems": [
-				"maul|phb"
-			],
-			"conditionInflict": [
-				"blinded"
+				"MW"
 			],
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
-					"will": [
-						"{@spell light}",
-						"{@spell spare the dying}",
-						"{@spell thaumaturgy}"
+					"headerEntries": [
+						"Eldeth is an 8th-level spellcaster. Her spellcasting ability is Charisma (spell save {@dc 16}, +8 to hit with spell attacks) she knows the following Paladin spells."
 					],
-					"daily": {
-						"1e": [
-							"{@spell banishment}",
-							"{@spell command}",
-							"{@spell dispel magic}",
-							"{@spell flame strike}",
-							"{@spell guardian of faith}",
-							"{@spell hold person}",
-							"{@spell lesser restoration}",
-							"{@spell revivify}"
-						]
+					"displayAs": "action",
+					"spells": {
+						"1": {
+							"spells": [
+								"{@spell cure wounds}",
+								"{@spell protection from evil and good}",
+								"{@spell sanctuary}",
+								"{@spell shield of faith}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell aid}",
+								"{@spell lesser restoration}",
+								"{@spell prayer of healing}",
+								"{@spell zone of truth}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell beacon of hope}",
+								"{@spell create food and water}",
+								"{@spell crusader's mantle}",
+								"{@spell dispel magic}",
+								"{@spell revivify}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell death ward}",
+								"{@spell freedom of movement}",
+								"{@spell guardian of faith}"
+							],
+							"slots": 2
+						}
 					},
+					"ability": "cha",
 					"type": "spellcasting"
 				}
 			],
 			"spellcastingTags": [
+				"CP"
+			],
+			"languages": [
+				"Common",
+				"Undercommon",
+				"Dwarvish",
+				"Orc"
+			],
+			"languageTags": [
+				"C",
+				"U",
+				"D",
 				"O"
 			],
-			"bonus": [
-				{
-					"name": "Healing Light {@recharge 4}",
-					"entries": [
-						"Eldeth or one creature of her choice within 60 feet of her regains 12 ({@dice 2d8 + 3}) hit points."
-					]
-				},
-				{
-					"name": "Second Wind",
-					"entries": [
-						"Eldeth can use a bonus action on her turn to regain hit points equal to ({@dice 1d10 + 11}) her level in this class. Once it uses this feature, it must finish a short or long rest before it can use it again."
-					]
-				}
-			],
-			"damageTags": [
-				"B"
-			],
 			"damageTagsSpell": [
-				"F",
 				"R"
-			],
-			"savingThrowForced": [
-				"wisdom"
 			],
 			"savingThrowForcedSpell": [
 				"charisma",
