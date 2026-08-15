@@ -131,8 +131,7 @@
 			],
 			"savingThrowForced": [
 				"dexterity"
-			],
-			"uniqueId": "50b45780-5207-4bb0-b1c1-e48fba5c52bd"
+			]
 		},
 		{
 			"name": "Amber Thrazgad",
@@ -336,8 +335,7 @@
 			],
 			"savingThrowForcedSpell": [
 				"wisdom"
-			],
-			"uniqueId": "c8616f16-f644-45c2-832a-69b63b8c4512"
+			]
 		},
 		{
 			"name": "Deepking Horgar Steelshadow V",
@@ -581,8 +579,7 @@
 			],
 			"damageTags": [
 				"B"
-			],
-			"uniqueId": "4aa68df8-57c0-4c71-a0ef-c42d13740f69"
+			]
 		},
 		{
 			"name": "Grinta Ironhead",
@@ -784,8 +781,7 @@
 			],
 			"savingThrowForced": [
 				"dexterity"
-			],
-			"uniqueId": "a3e8fb3f-a0d0-47dd-8378-914fca6cc5db"
+			]
 		},
 		{
 			"name": "Ylsa Henstak",
@@ -959,8 +955,7 @@
 			],
 			"savingThrowForced": [
 				"intelligence"
-			],
-			"uniqueId": "8737464f-f5f4-4850-99d3-a432925b5c96"
+			]
 		},
 		{
 			"name": "Gorglak Xornbane",
@@ -1154,8 +1149,7 @@
 			"isNpc": true,
 			"damageTags": [
 				"B"
-			],
-			"uniqueId": "f4663946-2ee2-40f3-a1f3-d7953a464b4e"
+			]
 		},
 		{
 			"name": "Captain Errde Blackskull",
@@ -1334,8 +1328,7 @@
 			"damageTags": [
 				"B",
 				"Y"
-			],
-			"uniqueId": "3f1ce47d-df78-462a-a646-0918ad34f071"
+			]
 		},
 		{
 			"name": "Pliinki",
@@ -1494,8 +1487,7 @@
 			],
 			"savingThrowForced": [
 				"dexterity"
-			],
-			"uniqueId": "b6132ad1-ebf7-484b-ace3-5e6b6f88cabe"
+			]
 		},
 		{
 			"name": "Aliinka",
@@ -1692,8 +1684,7 @@
 				"constitution",
 				"dexterity",
 				"wisdom"
-			],
-			"uniqueId": "6508a531-d72d-477e-a060-cc4594997ad9"
+			]
 		},
 		{
 			"name": "Master Assassin Eldgrim",
@@ -1886,8 +1877,7 @@
 			],
 			"savingThrowForced": [
 				"constitution"
-			],
-			"uniqueId": "0f7960e0-a882-4665-bf68-265224b7d3cc"
+			]
 		},
 		{
 			"name": "Diinakvil Rylafyrn",
@@ -2080,8 +2070,7 @@
 			],
 			"savingThrowForcedSpell": [
 				"wisdom"
-			],
-			"uniqueId": "0c7ecd48-83de-48f6-8fde-c82e19cbd1d7"
+			]
 		},
 		{
 			"name": "Shari",
@@ -2234,8 +2223,7 @@
 			],
 			"damageTags": [
 				"O"
-			],
-			"uniqueId": "1a27cfdb-9798-4557-b174-b81ed8068c51"
+			]
 		},
 		{
 			"name": "Ulara",
@@ -2388,8 +2376,7 @@
 			],
 			"damageTags": [
 				"O"
-			],
-			"uniqueId": "c212790a-650d-4d45-a4f1-c59a2b13c863"
+			]
 		},
 		{
 			"name": "Ivar",
@@ -2542,8 +2529,7 @@
 			],
 			"damageTags": [
 				"O"
-			],
-			"uniqueId": "aee7388d-3cf2-4a2a-8530-9a3ce54b419a"
+			]
 		},
 		{
 			"name": "Qualux",
@@ -2753,8 +2739,7 @@
 				"charisma",
 				"constitution",
 				"wisdom"
-			],
-			"uniqueId": "056a2440-6f07-4ca4-bb0e-fb64312ca44c"
+			]
 		},
 		{
 			"name": "Uskvil",
@@ -2930,8 +2915,7 @@
 			],
 			"savingThrowForced": [
 				"wisdom"
-			],
-			"uniqueId": "10280226-223f-4431-8f98-0c2610e20f35"
+			]
 		},
 		{
 			"name": "Zubriska",
@@ -3089,8 +3073,7 @@
 			"isNpc": true,
 			"damageTags": [
 				"P"
-			],
-			"uniqueId": "a20e78fb-c722-4280-bca4-70e89ea3b832"
+			]
 		},
 		{
 			"name": "Shal",
@@ -3253,8 +3236,7 @@
 			"savingThrowForced": [
 				"constitution",
 				"wisdom"
-			],
-			"uniqueId": "e3518b2e-0882-47d9-81bf-eeda7949694b"
+			]
 		},
 		{
 			"name": "Rystia Zav",
@@ -3476,8 +3458,7 @@
 			"savingThrowForcedSpell": [
 				"charisma",
 				"wisdom"
-			],
-			"uniqueId": "9efde09f-e02e-477f-8686-c29ed199596e"
+			]
 		},
 		{
 			"name": "Stool",
@@ -3503,15 +3484,15 @@
 				}
 			],
 			"hp": {
-				"formula": "16d6 + 48",
-				"average": 104
+				"formula": "16d6 + 64",
+				"average": 120
 			},
 			"speed": {
 				"walk": 30
 			},
 			"str": 12,
 			"dex": 10,
-			"con": 16,
+			"con": 18,
 			"int": 12,
 			"wis": 20,
 			"cha": 14,
@@ -3657,7 +3638,7 @@
 				"poisoned",
 				"stunned"
 			],
-			"level": 14,
+			"level": 16,
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
@@ -3726,6 +3707,12 @@
 								"{@spell resurrection}"
 							],
 							"slots": 1
+						},
+						"8": {
+							"spells": [
+								"{@spell antimagic field}"
+							],
+							"slots": 1
 						}
 					},
 					"ability": "wis",
@@ -3740,7 +3727,7 @@
 				"arctic",
 				"underdark"
 			],
-			"cr": "14",
+			"cr": "16",
 			"languages": [
 				"Understands common",
 				"undercommon",
@@ -3783,8 +3770,7 @@
 				"charisma",
 				"strength",
 				"wisdom"
-			],
-			"uniqueId": "b7854b1d-a900-4c3a-ab98-4c3812b92fdf"
+			]
 		},
 		{
 			"name": "Jimjar",
@@ -4029,8 +4015,7 @@
 			],
 			"savingThrowForcedSpell": [
 				"constitution"
-			],
-			"uniqueId": "a58daaf5-1006-466b-9b42-709fedb6023e"
+			]
 		},
 		{
 			"name": "Princess Derendil Sotharilli",
@@ -4056,8 +4041,8 @@
 				}
 			],
 			"hp": {
-				"formula": "20d8 + 60",
-				"average": 150
+				"formula": "22d8 + 66",
+				"average": 165
 			},
 			"speed": {
 				"walk": 30
@@ -4067,11 +4052,11 @@
 			"con": 16,
 			"int": 16,
 			"wis": 20,
-			"cha": 14,
+			"cha": 16,
 			"senses": [
 				"darkvision 60 ft."
 			],
-			"passive": 20,
+			"passive": 25,
 			"resist": [
 				{
 					"resist": [
@@ -4176,6 +4161,12 @@
 								"{@spell plane shift}"
 							],
 							"slots": 1
+						},
+						"8": {
+							"spells": [
+								"{@spell feeblemind}"
+							],
+							"slots": 0
 						}
 					},
 					"ability": "wis",
@@ -4337,12 +4328,12 @@
 				]
 			},
 			"skill": {
-				"deception": "+7",
-				"insight": "+10",
-				"perception": "+10",
+				"deception": "+8",
+				"insight": "+15",
+				"perception": "+15",
 				"stealth": "+8"
 			},
-			"level": 14,
+			"level": 16,
 			"immune": [
 				"poison"
 			],
@@ -4351,7 +4342,7 @@
 			"save": {
 				"wis": "+10"
 			},
-			"cr": "14",
+			"cr": "16",
 			"shortName": "Derendil",
 			"tokenHref": {
 				"type": "external",
@@ -4370,7 +4361,8 @@
 				"N",
 				"P",
 				"R",
-				"T"
+				"T",
+				"Y"
 			],
 			"savingThrowForced": [
 				"constitution",
@@ -4380,9 +4372,9 @@
 				"charisma",
 				"constitution",
 				"dexterity",
+				"intelligence",
 				"wisdom"
-			],
-			"uniqueId": "6e3e5dab-4b71-4fda-abf1-2dab933a5123"
+			]
 		},
 		{
 			"name": "Hilari",
@@ -4582,8 +4574,7 @@
 			"savingThrowForcedSpell": [
 				"dexterity",
 				"wisdom"
-			],
-			"uniqueId": "864d04bc-8016-4a19-a628-4032e6b52fa1"
+			]
 		},
 		{
 			"name": "Sword Spider",
@@ -4724,8 +4715,7 @@
 			],
 			"savingThrowForced": [
 				"constitution"
-			],
-			"uniqueId": "97cf402c-a74f-4ead-81d5-b896b7d5e70e"
+			]
 		},
 		{
 			"name": "Narrak Enhanced",
@@ -4928,8 +4918,7 @@
 				"constitution",
 				"dexterity",
 				"wisdom"
-			],
-			"uniqueId": "23374d07-01ca-4bd6-a2bd-6d3ef1857004"
+			]
 		},
 		{
 			"name": "Themberchaud Zombie",
@@ -5142,8 +5131,7 @@
 			"savingThrowForced": [
 				"dexterity",
 				"wisdom"
-			],
-			"uniqueId": "e3dfdc05-48b5-4176-a055-eb781142b9f0"
+			]
 		},
 		{
 			"name": "Glabbagool",
@@ -5315,8 +5303,7 @@
 			],
 			"savingThrowForced": [
 				"dexterity"
-			],
-			"uniqueId": "aa5205c2-0a77-4e89-8a2b-7933033a5777"
+			]
 		},
 		{
 			"name": "Topsy",
@@ -5555,8 +5542,7 @@
 			],
 			"savingThrowForcedSpell": [
 				"constitution"
-			],
-			"uniqueId": "e9aaaa7b-5beb-4c8c-8ae9-c3a8e67d67c0"
+			]
 		},
 		{
 			"name": "Turvy",
@@ -5800,8 +5786,7 @@
 			],
 			"savingThrowForcedSpell": [
 				"constitution"
-			],
-			"uniqueId": "f84b1e96-acdf-46af-85f3-0f8af110d1d0"
+			]
 		},
 		{
 			"name": "Eldeth Feldrun",
@@ -5956,22 +5941,14 @@
 			"senses": [
 				"darkvision 120 ft."
 			],
-			"token": {
-				"name": "Eldeth Feldrun",
-				"source": "OotA"
-			},
 			"fluff": {
-				"name": "Eldeth Feldrun",
-				"source": "OotA",
 				"images": [
 					{
 						"type": "image",
 						"href": {
-							"type": "internal",
-							"path": "bestiary/OotA/Eldeth Feldrun.webp"
-						},
-						"width": 926,
-						"height": 347
+							"type": "external",
+							"url": "https://dnd.macphearson.org/foundryvtt/tokenizer/npc-images/eldeth_feldrun.Avatar.webp"
+						}
 					}
 				]
 			},
@@ -6052,6 +6029,10 @@
 				"D",
 				"O"
 			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://dnd.macphearson.org/foundryvtt/tokenizer/npc-images/eldeth_feldrun.Token.webp"
+			},
 			"damageTagsSpell": [
 				"R"
 			],
@@ -6059,8 +6040,7 @@
 				"charisma",
 				"dexterity",
 				"wisdom"
-			],
-			"uniqueId": "9b781a1d-3079-4fe0-aba2-e3b92fdbbdad"
+			]
 		},
 		{
 			"name": "Agustus",
@@ -6218,8 +6198,7 @@
 			],
 			"savingThrowForced": [
 				"dexterity"
-			],
-			"uniqueId": "311b70ad-99e2-40a7-9d80-ffa027d62998"
+			]
 		},
 		{
 			"name": "Jaz Cobolt",
@@ -6416,8 +6395,7 @@
 			],
 			"damageTagsSpell": [
 				"O"
-			],
-			"uniqueId": "cd0ca939-dd83-4a5e-ab7b-67610ae82c5d"
+			]
 		},
 		{
 			"name": "Ralto",
@@ -6554,8 +6532,7 @@
 			"tokenHref": {
 				"type": "external",
 				"url": "tokenizer/npc-images/ralto.Token.webp?1761946951673"
-			},
-			"uniqueId": "ed319cd8-5654-4a61-9ea9-ab30b8990750"
+			}
 		},
 		{
 			"name": "The Duchess",
@@ -6753,8 +6730,7 @@
 			],
 			"savingThrowForced": [
 				"strength"
-			],
-			"uniqueId": "b9722f77-d3a0-4280-868c-d78ce108f539"
+			]
 		},
 		{
 			"name": "The Duchess Familiar",
@@ -6897,8 +6873,7 @@
 				}
 			],
 			"familiar": true,
-			"isNpc": true,
-			"uniqueId": "e191913d-60e9-4379-9f09-88730ebdf613"
+			"isNpc": true
 		},
 		{
 			"name": "Dominga",
@@ -7107,8 +7082,7 @@
 				"intelligence",
 				"strength",
 				"wisdom"
-			],
-			"uniqueId": "7b2d5daf-3d07-41b7-a9e7-10f1a5898809"
+			]
 		},
 		{
 			"name": "Thavian",
@@ -7289,8 +7263,7 @@
 				"constitution",
 				"dexterity",
 				"wisdom"
-			],
-			"uniqueId": "b996cabb-a870-4198-8fcd-f56f0cc4d41c"
+			]
 		},
 		{
 			"name": "Shoth Avatar of Juiblex",
@@ -7585,8 +7558,7 @@
 			],
 			"savingThrowForcedSpell": [
 				"constitution"
-			],
-			"uniqueId": "bedea20a-e9df-453f-8fac-c3671bf3b1ee"
+			]
 		},
 		{
 			"name": "Vril'b",
@@ -7786,8 +7758,7 @@
 			],
 			"savingThrowForced": [
 				"constitution"
-			],
-			"uniqueId": "755a8a76-8f87-4140-8b0b-a5bc5ce27134"
+			]
 		},
 		{
 			"name": "Hexmancer Yzma",
@@ -7942,8 +7913,7 @@
 				"constitution",
 				"dexterity",
 				"wisdom"
-			],
-			"uniqueId": "4cee9729-d4f0-432d-a340-d5efe4364e40"
+			]
 		},
 		{
 			"name": "Kronk",
@@ -8071,8 +8041,7 @@
 			],
 			"savingThrowForced": [
 				"dexterity"
-			],
-			"uniqueId": "85ddf3ea-2f89-41bb-af61-7dc3f63cc365"
+			]
 		},
 		{
 			"name": "Stalker of the Horned King",
@@ -8289,8 +8258,7 @@
 			"savingThrowForced": [
 				"dexterity",
 				"strength"
-			],
-			"uniqueId": "18a076f6-afc8-4678-a5fd-2d08e9b19034"
+			]
 		},
 		{
 			"name": "Fungal Corruption",
@@ -8450,8 +8418,7 @@
 			"savingThrowForced": [
 				"constitution",
 				"dexterity"
-			],
-			"uniqueId": "b93a2b56-fe51-49ee-b33c-2611d1779dd3"
+			]
 		},
 		{
 			"name": "Dancing Lady",
@@ -8606,8 +8573,7 @@
 				"dexterity",
 				"strength",
 				"wisdom"
-			],
-			"uniqueId": "3a40b180-6ad5-4c8d-8dc1-9c196f10bede"
+			]
 		},
 		{
 			"source": "TheAbyss",
@@ -8800,8 +8766,7 @@
 			"savingThrowForced": [
 				"charisma",
 				"constitution"
-			],
-			"uniqueId": "acf29077-e7cb-4740-99da-d11fffa57240"
+			]
 		},
 		{
 			"name": "Araumycos",
@@ -9069,8 +9034,7 @@
 				"dexterity",
 				"strength",
 				"wisdom"
-			],
-			"uniqueId": "d5163421-dee0-4809-a34b-7d1f394ceb52"
+			]
 		},
 		{
 			"name": "Spore Servant",
@@ -9244,8 +9208,7 @@
 			},
 			"damageTags": [
 				"S"
-			],
-			"uniqueId": "eb0f039a-db9f-4d9f-9dfa-84f8194f1ff2"
+			]
 		},
 		{
 			"name": "Ront Iceshield",
@@ -9278,8 +9241,8 @@
 				}
 			],
 			"hp": {
-				"formula": "16d12 + 64",
-				"average": 168
+				"formula": "18d12 + 72",
+				"average": 189
 			},
 			"speed": {
 				"walk": 30
@@ -9287,12 +9250,12 @@
 			"str": 20,
 			"dex": 14,
 			"con": 18,
-			"int": 7,
+			"int": 10,
 			"wis": 10,
 			"cha": 14,
 			"skill": {
 				"athletics": "+10",
-				"intimidation": "+7",
+				"intimidation": "+12",
 				"survival": "+5",
 				"animal handling": "+5"
 			},
@@ -9323,9 +9286,9 @@
 				"AB",
 				"GI"
 			],
-			"level": 14,
+			"level": 16,
 			"isNpc": true,
-			"cr": "14",
+			"cr": "16",
 			"resist": [
 				{
 					"resist": [
@@ -9474,7 +9437,7 @@
 				{
 					"name": "Extra Attack",
 					"entries": [
-						"Ront can attack twice, instead of once, whenever he takes the Attack action on his turn."
+						"Ront can attack three times whenever he takes the Attack action on his turn."
 					]
 				},
 				{
@@ -9541,8 +9504,7 @@
 			],
 			"savingThrowForcedSpell": [
 				"wisdom"
-			],
-			"uniqueId": "85fc487e-c3f0-45e2-8990-03af594a5b3b"
+			]
 		},
 		{
 			"name": "Spinky",
@@ -9554,7 +9516,7 @@
 			"type": {
 				"type": "beast",
 				"tags": [
-					"wooly spider"
+					"enormous wooly spider"
 				]
 			},
 			"alignment": [
@@ -9563,24 +9525,24 @@
 			],
 			"ac": [
 				{
-					"ac": 15,
+					"ac": 16,
 					"from": [
-						"natural floof"
+						"{@item leather barding|phb}"
 					]
 				}
 			],
 			"hp": {
-				"formula": "14d12 + 70",
-				"average": 161
+				"formula": "16d12 + 80",
+				"average": 184
 			},
 			"speed": {
 				"walk": 40,
 				"climb": 40,
 				"swim": 20
 			},
-			"str": 20,
+			"str": 24,
 			"dex": 18,
-			"con": 20,
+			"con": 21,
 			"int": 5,
 			"wis": 11,
 			"cha": 5,
@@ -9589,7 +9551,7 @@
 				"blindsight 10 ft."
 			],
 			"passive": 10,
-			"cr": "14",
+			"cr": "16",
 			"trait": [
 				{
 					"name": "Spider Climb",
@@ -9626,10 +9588,17 @@
 					"entries": [
 						"If the spider takes fire damage, it has disadvantage on attack rolls and ability checks until the end of its next turn."
 					]
+				},
+				{
+					"name": "Inventory: Barding of the Faithful Steed",
+					"entries": [
+						"While wearing this spider barding Spinky can use a bonus action to go {@condition invisible} and anyone riding her gains this benefit. A hostile action taken will reveal their location."
+					]
 				}
 			],
 			"traitTags": [
 				"Spider Climb",
+				"Sure-Footed",
 				"Web Sense",
 				"Web Walker"
 			],
@@ -9648,19 +9617,19 @@
 				{
 					"name": "Pick Up Allies",
 					"entries": [
-						"The spider picks up three Medium or smaller willing creatures and places them safely on its wooly back. Creatures considered Tiny do not take up a spot."
+						"The spider picks up four Medium or smaller willing creatures and places them safely on its wooly back. Creatures considered Tiny do not take up a spot."
 					]
 				},
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}16 ({@damage 2d10 + 5}) piercing damage, plus and the target must make a {@dc 16} Constitution saving throw, taking ({@damage 6d8}) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but  {@condition poisoned} for 1 hour, even after regaining hit points, and is {@condition paralyzed} while {@condition poisoned} in this way."
+						"{@atk mw} {@hit 12} to hit, reach 10 ft., one target. ({@damage 2d10 + 7}) piercing damage, plus and the target must make a {@dc 16} Constitution saving throw, taking ({@damage 8d8}) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but  {@condition poisoned} for 1 hour, even after regaining hit points, and is {@condition paralyzed} while {@condition poisoned} in this way."
 					]
 				},
 				{
 					"name": "Web {@recharge 5}",
 					"entries": [
-						"{@atk rw} {@hit +9} to hit, range 60/120 ft., one Large or smaller creature. {@h}The target is {@condition restrained} by webbing. As an action, the {@condition restrained} target can make a {@dc 18} Strength check, bursting the webbing on a success. The webbing can also be attacked and destroyed (AC 10; hp 20; vulnerability to fire damage; immunity to bludgeoning, poison, and psychic damage)."
+						"{@atk rw} {@hit +10} to hit, range 60/120 ft., one Large or smaller creature. {@h}The target is {@condition restrained} by webbing. As an action, the {@condition restrained} target can make a {@dc 18} Strength check, bursting the webbing on a success. The webbing can also be attacked and destroyed (AC 10; hp 20; vulnerability to fire damage; immunity to bludgeoning, poison, and psychic damage)."
 					]
 				}
 			],
@@ -9668,7 +9637,7 @@
 				{
 					"name": "Floof Up",
 					"entries": [
-						"When a creature riding the spider is hit with an attack, the spider can use its reaction to floof up its wool, causing the attacks damage to be reduced by {@dice 1d4}. If the creature is hit with a critical hit, the critical is nullified and {@condition turned|ConfC} into a normal attack. The damage reduction does not apply to critical hits."
+						"When a creature riding the spider is hit with an attack, the spider can use its reaction to floof up its wool, causing the attacks damage to be reduced by {@dice 2d4}. If the creature is hit with a critical hit, the critical is nullified and {@condition turned|ConfC} into a normal attack. The damage reduction does not apply to critical hits."
 					]
 				}
 			],
@@ -9679,6 +9648,7 @@
 			],
 			"miscTags": [
 				"MW",
+				"RCH",
 				"RW"
 			],
 			"fluff": {
@@ -9697,7 +9667,7 @@
 			},
 			"isNpc": true,
 			"isNamedCreature": true,
-			"level": 14,
+			"level": 16,
 			"save": {
 				"con": "+10"
 			},
@@ -9705,13 +9675,17 @@
 				"type": "external",
 				"url": "https://dnd.macphearson.org/foundryvtt/tokenizer/npc-images/spinky.Token.webp?"
 			},
-			"damageTags": [
-				"P"
+			"bonus": [
+				{
+					"name": "Barding of the Faithful Steed",
+					"entries": [
+						"While wearing this spider barding Spinky can use a bonus action to go {@condition invisible} and anyone riding her gains this benefit. A hostile action taken will reveal their location."
+					]
+				}
 			],
 			"savingThrowForced": [
 				"constitution"
-			],
-			"uniqueId": "cc579126-fc54-4250-8d1a-9e8c30b269ff"
+			]
 		},
 		{
 			"name": "Kay",
@@ -9852,8 +9826,7 @@
 			"savingThrowForcedSpell": [
 				"constitution",
 				"dexterity"
-			],
-			"uniqueId": "36ecc0b5-8973-48f1-b7a6-000ade50888c"
+			]
 		},
 		{
 			"name": "Juiblex",
@@ -10114,8 +10087,7 @@
 				"name": "Juiblex",
 				"source": "MTF"
 			},
-			"fluff": {},
-			"uniqueId": "5044b576-aa9a-45fa-b373-765fea852da2"
+			"fluff": {}
 		},
 		{
 			"name": "Ooze Scion",
@@ -10217,8 +10189,7 @@
 			],
 			"miscTags": [
 				"MW"
-			],
-			"uniqueId": "7be8f695-9d46-4093-9308-791ee58b8239"
+			]
 		},
 		{
 			"name": "Zuggtmoy",
@@ -10449,7 +10420,6 @@
 				"source": "MTF"
 			},
 			"fluff": {},
-			"uniqueId": "a7ec6def-b3a8-4035-9ba2-f8ebe008138e",
 			"legendaryGroup": {
 				"name": "Zuggtmoy",
 				"source": "MPMM"
@@ -10552,8 +10522,7 @@
 			],
 			"miscTags": [
 				"MW"
-			],
-			"uniqueId": "7f1d9144-a765-4e61-b5fa-cbf4f47eaace"
+			]
 		}
 	],
 	"item": [
@@ -10593,7 +10562,7 @@
 			"name": "Vile of Deva's Ichor",
 			"source": "TheAbyss",
 			"page": 0,
-			"type": "Potion",
+			"type": "Wondrous Item",
 			"rarity": "Very Rare",
 			"weight": 0.01,
 			"entries": [
@@ -10618,7 +10587,7 @@
 			"name": "Appraiser's Eye",
 			"source": "TheAbyss",
 			"page": 0,
-			"type": "W",
+			"type": "Wondrous Item",
 			"rarity": "Rare",
 			"weight": 0,
 			"entries": [
@@ -10708,8 +10677,7 @@
 				"Silver moonlight flares around the target as Eilistraee's protection answers your call. The triggering attack deals no damage, as though it had missed instead of scoring a critical hit.",
 				"Once you use this boon, you can't use it again until you finish a long rest."
 			],
-			"source": "TheAbyss",
-			"uniqueId": "1808e1bc-bfcc-4515-9f18-ee7feaa090a5"
+			"source": "TheAbyss"
 		},
 		{
 			"name": "Dominga's Splendiferous Sandcastle",
