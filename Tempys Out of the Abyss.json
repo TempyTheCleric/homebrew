@@ -10532,6 +10532,7 @@
 			"page": 69,
 			"baseItem": "glaive|phb",
 			"type": "M",
+   "wondrous": true,
 			"tier": "major",
 			"rarity": "Legendary",
 			"reqAttune": true,
@@ -10562,7 +10563,7 @@
 			"name": "Vile of Deva's Ichor",
 			"source": "TheAbyss",
 			"page": 0,
-			"type": "Wondrous Item",
+			"type": "P",
 			"rarity": "Very Rare",
 			"weight": 0.01,
 			"entries": [
@@ -10575,7 +10576,7 @@
 			"name": "Prayer Beads of Grace",
 			"source": "TheAbyss",
 			"page": 0,
-			"type": "Wondrous Item",
+			"wondrous": true,
 			"rarity": "Very Rare",
 			"weight": 0.2,
 			"entries": [
@@ -10587,7 +10588,7 @@
 			"name": "Appraiser's Eye",
 			"source": "TheAbyss",
 			"page": 0,
-			"type": "Wondrous Item",
+			"wondrous": true,
 			"rarity": "Rare",
 			"weight": 0,
 			"entries": [
@@ -10600,7 +10601,7 @@
 			"name": "Silvertongue's Finery",
 			"source": "TheAbyss",
 			"page": 0,
-			"type": "Wondrous Item",
+			"wondrous": true,
 			"rarity": "Legendary",
 			"reqAttune": true,
 			"weight": 3,
@@ -10616,7 +10617,7 @@
 			"name": "Pinchglass",
 			"source": "TheAbyss",
 			"page": 0,
-			"type": "Wondrous Item",
+			"wondrous": true,
 			"rarity": "Artifact",
 			"weight": 0.01,
 			"entries": [
