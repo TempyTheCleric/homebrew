@@ -10523,7 +10523,599 @@
 			"miscTags": [
 				"MW"
 			]
+		},
+		{
+			"name": "Jarded Enhanced",
+			"size": [
+				"M"
+			],
+			"type": "Humanoid, Paladin",
+			"source": "TheAbyss",
+			"alignment": null,
+			"ac": [
+				{
+					"ac": 22,
+					"from": [
+						"+3 {@item efreeti chain} shirt",
+						"{@item +3 shield}",
+						"+1 Defense Fighting Style"
+					]
+				}
+			],
+			"hp": {
+				"special": "215"
+			},
+			"speed": {
+				"walk": 30,
+				"fly": 30
+			},
+			"str": 20,
+			"dex": 14,
+			"con": 20,
+			"int": 12,
+			"wis": 14,
+			"cha": 18,
+			"passive": 17,
+			"cr": "16",
+			"level": 16,
+			"languages": [
+				"all",
+				"telepathy 120 ft."
+			],
+			"languageTags": [
+				"XX",
+				"TP"
+			],
+			"save": {
+				"wis": "+7",
+				"cha": "+9",
+				"con": "+10"
+			},
+			"skill": {
+				"athletics": "+10",
+				"insight": "+7",
+				"sleight of hand": "+7",
+				"intimidation": "+9",
+				"perception": "+7"
+			},
+			"action": [
+				{
+					"name": "Extra Attack",
+					"entries": [
+						"You can attack twice."
+					]
+				},
+				{
+					"name": "Holy Avenger",
+					"entries": [
+						"{@atk mw} {@hit 13} to hit, reach 5 ft., one target. ({@damage 2d6 + 8}) slashing damage, plus ({@damage 1d8}) radiant damage and the creature must make a {@dc 17} Constitution saving throw. On a failed save, a target begins to turn to salt and is {@condition restrained}. The {@condition restrained} target must repeat the saving throw at the end of its next turn. On a success, the effect ends on the target. On a failure, the target is {@condition petrified} until freed by the greater restoration spell or other magic."
+					]
+				},
+				{
+					"name": "Holy Avenger (against fiends and undead)",
+					"entries": [
+						"{@atk mw} {@hit 13} to hit, reach 5 ft., one target. ({@damage 2d6 + 8}) slashing damage, plus ({@damage 2d10}) radiant damage, if the creature is CR 3 or lower they instantly die."
+					]
+				},
+				{
+					"name": "Cleansing Touch (4/Day)",
+					"entries": [
+						"You can end one spell on yourself or a willing creature you touch."
+					]
+				},
+				{
+					"name": "Healing Touch (1/Day)",
+					"entries": [
+						"You touch another creature that is alive, or has been dead for no more than a century. If the target was dead, it is restored to life with 1 HP. Then, the target magically regains 30 ({@dice 6d8 + 3}) hit points and is freed from any curse, disease, poison, blindness, deafness, or petrification."
+					]
+				}
+			],
+			"isNamedCreature": true,
+			"initiative": 3,
+			"immune": [
+				"fire",
+				{
+					"special": "disease, immunity to damage from the {@spell magic missile} spell"
+				}
+			],
+			"resist": [
+				{
+					"resist": [
+						"force",
+						"radiant"
+					],
+					"note": "bludgeoning, piercing, and slashing from nonmagical attacks"
+				}
+			],
+			"trait": [
+				{
+					"name": "Aura of Fortitude",
+					"entries": [
+						"You and friendly creatures within 10 feet of you gain a bonus {@hit 4} to all saving throws and cannot be {@condition frightened}."
+					]
+				},
+				{
+					"name": "Lay on Hands 80 hp pool",
+					"entries": [
+						"You have a pool of healing power. You can touch a creature and draw power from the pool to restore a number of hit points to that creature, up to the maximum amount remaining in your pool."
+					]
+				},
+				{
+					"name": "Divine Smite",
+					"entries": [
+						"When you hit with an attack, you may use a smite to add additional radiant, fire, thunder, or psychic damage to the attack."
+					]
+				},
+				{
+					"name": "Divine Awareness",
+					"entries": [
+						"You know when someone is lying to you."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"You have advantage on saving throws against spells and other magical effects."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Relentless Avenger",
+					"entries": [
+						"You make an attack against a hostile creature, then move up to half your speed without provoking attacks of opportunity under any of the following conditions:",
+						"When a creature enters your reach",
+						"When a creature leaves your reach",
+						"When a creature within 5 feet makes an attack against a target other than you.",
+						"If the attack hits, the creature's movement speed is reduced to 0 until the end of the turn."
+					]
+				},
+				{
+					"name": "Soul of Vengeance",
+					"entries": [
+						"When a creature under the effect of your Vow of Enmity makes an attack, you can use your reaction to move your full speed and make a melee weapon attack against that creature if you are in range."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Vow of Enmity (1/Day)",
+					"entries": [
+						"10 ft range, 1 target. You gain advantage on attack rolls against the creature for 1 minute or until it drops to 0 hit points or falls {@condition unconscious}."
+					]
+				},
+				{
+					"name": "Teleport (3/Day)",
+					"entries": [
+						"You magically teleports, along with any equipment they are wearing or carrying, up to 120 feet to an unoccupied space it can see."
+					]
+				}
+			],
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Your spell save DC is 17",
+						"{@bold 1st Level Smite (4/Day)} {@dice 2d8} radiant, fire, thunder, or psychic",
+						"{@bold 2nd Level Smite (3/Day)} {@dice 3d8} radiant, fire, thunder, or psychic",
+						"{@bold 3rd Level Smite (3/Day)} {@dice 4d8} radiant, fire, thunder, or psychic",
+						"{@bold 4th Level Smite (2/Day)} {@dice 5d8} radiant, fire, thunder, or psychic",
+						"{@bold 5th Level Smite (1/Day)} {@dice 6d8} radiant, fire, thunder, or psychic"
+					],
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"O"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://dnd.macphearson.org/foundryvtt/tokenizer/npc-images/Jarded%20Bhiled.png"
+			},
+			"senses": [
+				"truesight 120 ft."
+			],
+			"senseTags": [
+				"U"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened"
+			],
+			"traitTags": [
+				"Magic Resistance"
+			],
+			"actionTags": [
+				"Teleport"
+			],
+			"conditionInflict": [
+				"petrified",
+				"restrained"
+			],
+			"savingThrowForced": [
+				"constitution"
+			]
 		}
+		{
+			"name": "Jarded Bhiled",
+			"isNamedCreature": true,
+			"source": "Test",
+			"level": 16,
+			"size": [
+				"M"
+			],
+			"type": "Humanoid, Paladin",
+			"alignment": null,
+			"ac": [
+				{
+					"ac": 22,
+					"from": [
+						"+3 {@item efreeti chain} shirt",
+						"{@item +3 shield}",
+						"+1 Defense Fighting Style"
+					]
+				}
+			],
+			"hp": {
+				"special": "180"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"initiative": 3,
+			"str": 20,
+			"dex": 14,
+			"con": 20,
+			"int": 12,
+			"wis": 14,
+			"cha": 18,
+			"save": {
+				"wis": "+7",
+				"cha": "+9",
+				"con": "+10"
+			},
+			"skill": {
+				"athletics": "+10",
+				"insight": "+7",
+				"sleight of hand": "+7",
+				"intimidation": "+9",
+				"perception": "+7"
+			},
+			"passive": 17,
+			"resist": [
+				{
+					"resist": [
+						"force"
+					],
+					"note": "bludgeoning, piercing, and slashing from nonmagical attacks"
+				}
+			],
+			"immune": [
+				"fire",
+				{
+					"special": "disease, immunity to damage from the {@spell magic missile} spell"
+				}
+			],
+			"languages": [
+				"Common",
+				"Celestial",
+				"Elvish",
+				"Primordial"
+			],
+			"cr": "16",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Your spell save DC is 17",
+						"{@bold 1st Level Smite (4/Day)} {@dice 2d8} radiant, fire, thunder, or psychic",
+						"{@bold 2nd Level Smite (3/Day)} {@dice 3d8} radiant, fire, thunder, or psychic",
+						"{@bold 3rd Level Smite (3/Day)} {@dice 4d8} radiant, fire, thunder, or psychic",
+						"{@bold 4th Level Smite (2/Day)} {@dice 5d8} radiant, fire, thunder, or psychic",
+						"{@bold 5th Level Smite (1/Day)} {@dice 6d8} radiant, fire, thunder, or psychic"
+					]
+				}
+			],
+			"trait": [
+				{
+					"name": "Aura of Fortitude",
+					"entries": [
+						"You and friendly creatures within 10 feet of you gain a bonus {@hit 4} to all saving throws and cannot be {@condition frightened}."
+					]
+				},
+				{
+					"name": "Lay on Hands 80 hp pool",
+					"entries": [
+						"You have a pool of healing power. You can touch a creature and draw power from the pool to restore a number of hit points to that creature, up to the maximum amount remaining in your pool."
+					]
+				},
+				{
+					"name": "Divine Smite",
+					"entries": [
+						"When you hit with an attack, you may use a smite to add additional radiant, fire, thunder, or psychic damage to the attack."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Extra Attack",
+					"entries": [
+						"You can attack twice."
+					]
+				},
+				{
+					"name": "Holy Avenger",
+					"entries": [
+						"{@atk mw} {@hit 13} to hit, reach 5 ft., one target. ({@damage 2d6 + 8}) slashing damage, plus ({@damage 1d8}) radiant damage."
+					]
+				},
+				{
+					"name": "Holy Avenger (against fiends and undead)",
+					"entries": [
+						"{@atk mw} {@hit 13} to hit, reach 5 ft., one target. ({@damage 2d6 + 8}) slashing damage, plus ({@damage 2d10}) radiant damage."
+					]
+				},
+				{
+					"name": "Cleansing Touch (4/Day)",
+					"entries": [
+						"You can end one spell on yourself or a willing creature you touch."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Vow of Enmity (1/Day)",
+					"entries": [
+						"10 ft range, 1 target. You gain advantage on attack rolls against the creature for 1 minute or until it drops to 0 hit points or falls {@condition unconscious}."
+					]
+				},
+				{
+					"name": "Teleport (3/Day)",
+					"entries": [
+						"You double your movement speed for the next minute or until you fall {@condition unconscious}."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Relentless Avenger",
+					"entries": [
+						"You make an attack against a hostile creature, then move up to half your speed without provoking attacks of opportunity under any of the following conditions:",
+						"When a creature enters your reach",
+						"When a creature leaves your reach",
+						"When a creature within 5 feet makes an attack against a target other than you.",
+						"If the attack hits, the creature's movement speed is reduced to 0 until the end of the turn."
+					]
+				},
+				{
+					"name": "Soul of Vengeance",
+					"entries": [
+						"When a creature under the effect of your Vow of Enmity makes an attack, you can use your reaction to move your full speed and make a melee weapon attack against that creature if you are in range."
+					]
+				}
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://dnd.macphearson.org/foundryvtt/tokenizer/npc-images/Jarded%20Bhiled.png"
+			},
+			"traitTags": [
+				"Magic Resistance"
+			],
+			"actionTags": [
+				"Teleport"
+			],
+			"languageTags": [
+				"C",
+				"CE",
+				"E",
+				"P"
+			],
+			"spellcastingTags": [
+				"O"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Micalon",
+			"isNamedCreature": true,
+			"source": "Test",
+			"page": 0,
+			"size": [
+				"L"
+			],
+			"type": "Celestial, Planetar",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 21,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "18d10 + 180",
+				"average": 279
+			},
+			"speed": {
+				"walk": 40,
+				"fly": 120
+			},
+			"str": 26,
+			"dex": 22,
+			"con": 30,
+			"int": 22,
+			"wis": 25,
+			"cha": 30,
+			"save": {
+				"con": "+17",
+				"wis": "+14",
+				"cha": "+17"
+			},
+			"skill": {
+				"perception": "+14"
+			},
+			"senses": [
+				"truesight 120 ft."
+			],
+			"passive": 24,
+			"resist": [
+				"radiant",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks",
+					"cond": true
+				}
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened"
+			],
+			"languages": [
+				"all",
+				"telepathy 120 ft."
+			],
+			"cr": "21",
+			"trait": [
+				{
+					"name": "Angelic Weapons",
+					"entries": [
+						"Micalon's weapons are manifestations of their innate divine magic, and appear only as the planetar is attacking with them."
+					]
+				},
+				{
+					"name": "Divine Awareness",
+					"entries": [
+						"Micalon knows if it hears a lie."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"Micalon has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Cowing Presence",
+					"entries": [
+						"If Micalon has at least 122 HP, a creature that starts its turn within 30 feet of the planetar must succeed on a {@dc 15} Wisdom saving throw or be unable to take hostile action against Micalon until the beginning of its next turn. A creature has advantage on this save if it took damage from the planetar since the end of its last turn."
+					]
+				},
+				{
+					"name": "Wrathful Presence",
+					"entries": [
+						"If Micalon has 122 HP or fewer, a creature that starts its turn within 60 feet of the planetar must succeed on a {@dc 15} Wisdom saving throw or become {@condition frightened} of the planetar until the beginning of its next turn. While {@condition frightened} in this way, the creature has vulnerability to radiant damage."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Micalon attacks with their sword twice."
+					]
+				},
+				{
+					"name": "Sword of Wrath",
+					"entries": [
+						"{@atk mw} {@hit 15} to hit, reach 5 ft., one target. {@h}21 ({@damage 4d6 + 8}) slashing damage plus 22 ({@damage 5d8}) radiant damage and the creature must make a {@dc 20} Constitution saving throw. On a failed save, a target begins to turn to salt and is {@condition restrained}. The {@condition restrained} target must repeat the saving throw at the end of its next turn. On a success, the effect ends on the target. On a failure, the target is {@condition petrified} until freed by the {@spell greater restoration} spell or other magic."
+					]
+				},
+				{
+					"name": "Plague of Locusts",
+					"entries": [
+						"Each creature of Micalon's choice within 30 feet of it must succeed on a {@dc 20} Constitution saving throw or take 27 ({@damage 5d10}) piercing damage. Until the end of the Micalon's next turn, the affected area is difficult terrain and heavily obscured for all other creatures."
+					]
+				},
+				{
+					"name": "Judgement of Heaven",
+					"entries": [
+						"One creature within 30 feet must succeed on a {@dc 20} Dexterity saving throw or be reduced to 0 Hit Points."
+					]
+				},
+				{
+					"name": "Healing Touch (3/Day)",
+					"entries": [
+						"Micalon touches another creature that is alive, or has been dead for no more than a century. If the target was dead, it is restored to life with 1 HP. Then, the target magically regains 30 ({@dice 6d8 + 3}) hit points and is freed from any curse, disease, poison, blindness, deafness, or petrification."
+					]
+				}
+			],
+			"legendaryActions": 3,
+			"legendary": [
+				{
+					"name": "Teleport",
+					"entries": [
+						"Micalon magically teleports, along with any equipment they are wearing or carrying, up to 120 feet to an unoccupied space it can see."
+					]
+				},
+				{
+					"name": "Wrathful Burst (Costs 2 Actions)",
+					"entries": [
+						"Micalon emits magical, divine energy. Each creature of their choice in a 10-foot radius centered on them must make a {@dc 23} Dexterity saving throw, taking 14 ({@damage 4d6}) fire damage plus 14 ({@damage 4d6}) radiant damage on a failed save, or half as much damage on a successful one."
+					]
+				},
+				{
+					"name": "Blinding Gaze (Costs 3 Actions)",
+					"entries": [
+						"Micalon targets one creature they can see within 30 feet of them. If the target can see it, the target must succeed on a {@dc 15} Constitution saving throw or be {@condition blinded} until magic such as the {@spell lesser restoration} spell removes the blindness."
+					]
+				}
+			],
+			"token": {
+				"name": "Planetar",
+				"source": "MM"
+			},
+			"traitTags": [
+				"Magic Resistance"
+			],
+			"senseTags": [
+				"U"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"TP",
+				"XX"
+			],
+			"damageTags": [
+				"F",
+				"P",
+				"R",
+				"S"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
+			],
+			"conditionInflict": [
+				"blinded",
+				"frightened",
+				"petrified",
+				"restrained"
+			],
+			"savingThrowForced": [
+				"constitution",
+				"dexterity",
+				"wisdom"
+			],
+			"fluff": {}
+		}  
 	],
 	"item": [
 		{
@@ -10532,7 +11124,7 @@
 			"page": 69,
 			"baseItem": "glaive|phb",
 			"type": "M",
-   "wondrous": true,
+			"wondrous": true,
 			"tier": "major",
 			"rarity": "Legendary",
 			"reqAttune": true,
